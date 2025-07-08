@@ -1,0 +1,23 @@
+{
+  "name": "political-twitter-backend",
+  "version": "1.0.0",
+  "description": "Backend service for fetching political tweets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "node-cron": "^3.0.3",
+    "helmet": "^7.1.0",
+    "rate-limiter-flexible": "^3.0.8"
+  },
+
+  "keywords": ["twitter", "api", "political", "scraping"],
+  "author": "Your Name",
+  "license": "MIT"
+}
