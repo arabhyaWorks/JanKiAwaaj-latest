@@ -59,12 +59,11 @@ const SocialMediaTracker: React.FC = () => {
     try {
       // Load all data in parallel
       const [tweets, hashtags, sentiment] = await Promise.all([
-        apiService.getPoliticalTweets(100),
+        apiService.getPoliticalTweets(),
         apiService.getTrendingHashtags(15),
         apiService.getSentimentAnalysis('24h')
       ]);
-
-      setSocialMediaData(tweets);
+      setSocialMediaData(tweets.data);
       setTrendingHashtags(hashtags);
       setSentimentData(sentiment);
       setLastUpdated(new Date());
@@ -107,7 +106,7 @@ const SocialMediaTracker: React.FC = () => {
     { id: 'education', label: 'Education', count: socialMediaData.filter(p => p.category === 'education').length },
   ];
 
-  const filteredData = socialMediaData.filter(post => {
+  const filteredData: TwitterTweet[] = socialMediaData.filter(post => {
     const platformMatch = selectedPlatform === 'all' || post.platform === selectedPlatform;
     const categoryMatch = selectedCategory === 'all' || post.category === selectedCategory;
     return platformMatch && categoryMatch;
@@ -366,6 +365,7 @@ const SocialMediaTracker: React.FC = () => {
                     date={post.time}
                     platform={post.platform}
                     tags={post.tags}
+                    url={post.url}
                   />
                 ))
               ) : (

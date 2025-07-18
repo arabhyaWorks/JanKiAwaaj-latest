@@ -12,6 +12,7 @@ interface ApiResponse<T> {
 
 interface TwitterTweet {
   id: string;
+  url: string;
   platform: string;
   content: string;
   author: string;
@@ -85,14 +86,29 @@ class ApiService {
   }
 
   // Get political tweets from all leaders
-  async getPoliticalTweets(limit: number = 50, refresh: boolean = false): Promise<TwitterTweet[]> {
-    const params = new URLSearchParams({
-      limit: limit.toString(),
-      ...(refresh && { refresh: 'true' })
-    });
+  // async getPoliticalTweets(limit: number = 50, refresh: boolean = false): Promise<TwitterTweet[]> {
+  //   const params = new URLSearchParams({
+  //     limit: limit.toString(),
+  //     ...(refresh && { refresh: 'true' })
+  //   });
 
-    return this.makeRequest<TwitterTweet[]>(`/twitter/political-tweets?${params}`);
+  //   return this.makeRequest<TwitterTweet[]>(`/twitter/political-tweets?${params}`);
+  // }
+  // Get political tweets from custom backend
+// Fetch from local Express backend
+async getPoliticalTweets(): Promise<any> {
+  const response = await fetch('http://localhost:3001/api/twitter/latest-tweets');
+  console.log('response', response);
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(errorData.message || `HTTP ${response.status}: ${response.statusText}`);
   }
+  const data=await response.json();
+  console.log('result',data);
+  return  data;// The backend returns TwitterTweet[]
+}
+
+
 
   // Search tweets by query
   async searchTweets(query: string, limit: number = 20, lang: string = 'hi'): Promise<TwitterTweet[]> {
