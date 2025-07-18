@@ -12,9 +12,27 @@ import TrendsAnalysis from './components/TrendsAnalysis';
 import LeaderProfiles from './components/LeaderProfiles';
 import SchemePerformance from './components/SchemePerformance';
 import Layout from './components/Layout';
+import NewsList from './components/NewsList';
+import jsonData from "../public/news.json";
+
+const transformedNews = jsonData.map((item, index) => ({
+  id: index + 1,
+  title: item.title,
+  description: item.description,
+  date: new Date(item.publishedAt).toISOString(),
+  url: item.url, 
+}));
+
+
 
 function App() {
   return (
+   /*
+    <div>
+      <NewsList />
+    </div>
+    */
+    
     <Router>
       <Routes>
         <Route path="/login" element={<Login />} />
@@ -22,7 +40,7 @@ function App() {
           <Route index element={<Dashboard />} />
           <Route path="map" element={<UPMap />} />
           <Route path="constituency/:id" element={<ConstituencyDetail />} />
-          <Route path="news" element={<NewsAnalysis />} />
+          <Route path="news" element={<NewsAnalysis newsData={transformedNews} />} />
           <Route path="social-media" element={<SocialMediaTracker />} />
           <Route path="opposition" element={<OppositionAnalysis />} />
           <Route path="surveys" element={<SurveyData />} />
