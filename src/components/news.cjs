@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
 const Parser = require('rss-parser');
+
 // Function to clean text
 function cleanText(text) {
     if (!text) return '';
@@ -12,6 +13,41 @@ function cleanText(text) {
         .replace(/&#8220;/g, '"').replace(/&#8221;/g, '"')
         .replace(/&nbsp;/g, ' ').replace(/<!\[CDATA\[(.*?)\]\]>/g, '$1')
         .replace(/<[^>]*>/g, '').trim();
+}
+
+// Enhanced function to extract images from content
+function extractImages(item) {
+    const images = [];
+    
+    // Try different image patterns
+    const imagePatterns = [
+        // Media RSS namespace
+        /<media:content[^>]*url="([^"]*)"[^>]*type="image[^"]*"/gi,
+        /<media:thumbnail[^>]*url="([^"]*)"/gi,
+        // Enclosure tags for images
+        /<enclosure[^>]*url="([^"]*)"[^>]*type="image[^"]*"/gi,
+        // Content encoded images
+        /<img[^>]*src="([^"]*)"/gi,
+        // Description images
+        /<image[^>]*>\s*<url>(.*?)<\/url>/gi
+    ];
+    
+    imagePatterns.forEach(pattern => {
+        let match;
+        while ((match = pattern.exec(item)) !== null) {
+            const imageUrl = match[1];
+            if (imageUrl && imageUrl.startsWith('http') && 
+                (imageUrl.includes('.jpg') || imageUrl.includes('.jpeg') || 
+                 imageUrl.includes('.png') || imageUrl.includes('.webp') || 
+                 imageUrl.includes('.gif'))) {
+                images.push(imageUrl);
+            }
+        }
+    });
+    
+    // Remove duplicates and return first valid image
+    const uniqueImages = [...new Set(images)];
+    return uniqueImages.length > 0 ? uniqueImages[0] : null;
 }
 
 // Enhanced parsing for different RSS formats
@@ -33,16 +69,70 @@ function parseRSSItem(item) {
     // Try multiple date patterns
     const pubDate = cleanText(
         item.match(/<pubDate><!\[CDATA\[(.*?)\]\]><\/pubDate>/)?.[1] ||
-        item.match(/<pubDate>(.*?)<\/pubDate>/)?.[1] || ''
+        item.match(/<pubDate>(.*?)<\/pubDate>/)?.[1] || 
+        item.match(/<dc:date><!\[CDATA\[(.*?)\]\]><\/dc:date>/)?.[1] ||
+        item.match(/<dc:date>(.*?)<\/dc:date>/)?.[1] || ''
     );
     
+    // Enhanced description extraction
+    let description = '';
+    
     // Try multiple description patterns
-    const description = cleanText(
-        item.match(/<description><!\[CDATA\[(.*?)\]\]><\/description>/)?.[1] || 
-        item.match(/<description>(.*?)<\/description>/)?.[1] || ''
+    const descPatterns = [
+        /<description><!\[CDATA\[(.*?)\]\]><\/description>/s,
+        /<description>(.*?)<\/description>/s,
+        /<content:encoded><!\[CDATA\[(.*?)\]\]><\/content:encoded>/s,
+        /<content:encoded>(.*?)<\/content:encoded>/s,
+        /<summary><!\[CDATA\[(.*?)\]\]><\/summary>/s,
+        /<summary>(.*?)<\/summary>/s
+    ];
+    
+    for (const pattern of descPatterns) {
+        const match = item.match(pattern);
+        if (match && match[1]) {
+            description = cleanText(match[1]);
+            break;
+        }
+    }
+    
+    // If description is still empty or too short, try to extract from title or other fields
+    if (!description || description.length < 10) {
+        // Sometimes description might be in a different format
+        const altDesc = item.match(/<!\[CDATA\[(.*?)\]\]>/g);
+        if (altDesc && altDesc.length > 1) {
+            // Get the second CDATA section which might be description
+            description = cleanText(altDesc[1]);
+        }
+    }
+    
+    // Extract image
+    const imageUrl = extractImages(item);
+    
+    // Extract author/creator
+    const author = cleanText(
+        item.match(/<dc:creator><!\[CDATA\[(.*?)\]\]><\/dc:creator>/)?.[1] ||
+        item.match(/<dc:creator>(.*?)<\/dc:creator>/)?.[1] ||
+        item.match(/<author><!\[CDATA\[(.*?)\]\]><\/author>/)?.[1] ||
+        item.match(/<author>(.*?)<\/author>/)?.[1] || ''
     );
+    
+    // Extract category/tags
+    const categories = [];
+    const categoryMatches = item.match(/<category[^>]*>(.*?)<\/category>/g) || [];
+    categoryMatches.forEach(cat => {
+        const cleanCat = cleanText(cat.replace(/<[^>]*>/g, ''));
+        if (cleanCat) categories.push(cleanCat);
+    });
 
-    return { title, link, pubDate, description };
+    return { 
+        title, 
+        link, 
+        pubDate, 
+        description: description || 'No description available',
+        imageUrl,
+        author,
+        categories
+    };
 }
 
 // All RSS Feeds from your list
@@ -51,13 +141,13 @@ const allRSSFeeds = [
     'https://www.amarujala.com/rss/breaking-news.xml?client=android&client_new=au_revamp',
     'https://hindi.oneindia.com/rss/',
     'https://hindi.news18.com/khabar-rss/',
-    'https://newssetu.in/rss/category/उत्तर-प्रदेश',
-    'https://newssetu.in/rss/category/कुशीनगर',
-    'https://newssetu.in/rss/category/गोरखपुर',
-    'https://newssetu.in/rss/category/देवरिया',
-    'https://newssetu.in/rss/category/लखनऊ',
-    'https://newssetu.in/rss/category/बालियाँ',
-    'https://newssetu.in/rss/category/संत-कबीर-नगर',
+    // 'https://newssetu.in/rss/category/उत्तर-प्रदेश',
+    // 'https://newssetu.in/rss/category/कुशीनगर',
+    // 'https://newssetu.in/rss/category/गोरखपुर',
+    // 'https://newssetu.in/rss/category/देवरिया',
+    // 'https://newssetu.in/rss/category/लखनऊ',
+    // 'https://newssetu.in/rss/category/बालियाँ',
+    // 'https://newssetu.in/rss/category/संत-कबीर-नगर',
     'https://www.indiatv.in/rssnews/topstory-uttar-pradesh.xml',
     'https://www.indiatv.in/rssnews/topstory-crime.xml',
     'https://www.bhaskar.com/rss-v1--category-2052.xml',
@@ -72,11 +162,11 @@ const allRSSFeeds = [
     'https://hindi.news18.com/commonfeeds/v1/hin/rss/crime/crime.xml',
     'https://www.livehindustan.com/rss',
     'https://navbharattimes.indiatimes.com/rssfeedsdefault.cms',
-    'https://hindi.oneindia.com/rss/feeds/hindi-politics-fb.xml',
-    'https://hindi.oneindia.com/rss/feeds/hindi-uttar-pradesh-fb.xml',
-    'https://hindi.oneindia.com/rss/feeds/hindi-varanasi-fb.xml',
-    'https://hindi.oneindia.com/rss/feeds/oneindia-hindi-fb.xml',
-    'https://hindi.oneindia.com/rss/hindi-news-fb.xml',
+    // 'https://hindi.oneindia.com/rss/feeds/hindi-politics-fb.xml',
+    // 'https://hindi.oneindia.com/rss/feeds/hindi-uttar-pradesh-fb.xml',
+    // 'https://hindi.oneindia.com/rss/feeds/hindi-varanasi-fb.xml',
+    // 'https://hindi.oneindia.com/rss/feeds/oneindia-hindi-fb.xml',
+    // 'https://hindi.oneindia.com/rss/hindi-news-fb.xml',
     'https://www.amarujala.com/rss/uttar-pradesh.xml?client=android&client_new=au_revamp',
     'https://www.tv9hindi.com/feed',
     'https://www.amarujala.com/rss/gorakhpur.xml?client=android&client_new=au_revamp',
@@ -215,7 +305,7 @@ async function fetchSingleRSS(url, index) {
         
         const articles = [];
         items.forEach((item, itemIndex) => {
-            const { title, link, pubDate, description } = parseRSSItem(item);
+            const { title, link, pubDate, description, imageUrl, author, categories } = parseRSSItem(item);
 
             if (title && title.length > 5) {
                 articles.push({
@@ -223,7 +313,12 @@ async function fetchSingleRSS(url, index) {
                     url: link.trim(),
                     source: sourceName,
                     publishedAt: pubDate || 'Recent',
-                    description: description.substring(0, 100) + '...',
+                    description: description && description.length > 10 ? 
+                        (description.length > 200 ? description.substring(0, 200) + '...' : description) : 
+                        'No description available',
+                    imageUrl: imageUrl || null,
+                    author: author || 'Unknown',
+                    categories: categories,
                     feedUrl: url
                 });
             }
@@ -246,6 +341,72 @@ async function fetchSingleRSS(url, index) {
     }
 }
 
+// Alternative RSS parser using rss-parser library
+async function fetchSingleRSSWithParser(url, index) {
+    try {
+        const sourceName = getSourceName(url);
+        console.log(`${index + 1}. Loading with RSS Parser: ${sourceName}...`);
+        
+        const parser = new Parser({
+            customFields: {
+                item: [
+                    ['media:content', 'mediaContent'],
+                    ['media:thumbnail', 'mediaThumbnail'],
+                    ['enclosure', 'enclosure'],
+                    ['dc:creator', 'creator'],
+                    ['content:encoded', 'contentEncoded']
+                ]
+            }
+        });
+        
+        const feed = await parser.parseURL(url);
+        
+        const articles = [];
+        feed.items.forEach((item, itemIndex) => {
+            let imageUrl = null;
+            
+            // Extract image from various sources
+            if (item.mediaContent && item.mediaContent.$) {
+                imageUrl = item.mediaContent.$.url;
+            } else if (item.mediaThumbnail && item.mediaThumbnail.$) {
+                imageUrl = item.mediaThumbnail.$.url;
+            } else if (item.enclosure && item.enclosure.url) {
+                imageUrl = item.enclosure.url;
+            } else if (item.contentEncoded) {
+                // Extract image from content
+                const imgMatch = item.contentEncoded.match(/<img[^>]*src="([^"]*)"/);
+                if (imgMatch) imageUrl = imgMatch[1];
+            }
+            
+            let description = item.content || item.summary || item.contentSnippet || '';
+            if (description.length > 200) {
+                description = description.substring(0, 200) + '...';
+            }
+            
+            if (item.title && item.title.length > 5) {
+                articles.push({
+                    title: cleanText(item.title),
+                    url: item.link || item.guid || '',
+                    source: sourceName,
+                    publishedAt: item.pubDate || item.isoDate || 'Recent',
+                    description: description || 'No description available',
+                    imageUrl: imageUrl,
+                    author: item.creator || item.author || 'Unknown',
+                    categories: item.categories || [],
+                    feedUrl: url
+                });
+            }
+        });
+        
+        console.log(`   ✅ Found ${articles.length} articles from ${sourceName} using RSS Parser`);
+        return articles;
+        
+    } catch (error) {
+        console.log(`   ❌ Failed RSS Parser: ${getSourceName(url)} - ${error.message}`);
+        return [];
+    }
+}
+
 // Main function to load all RSS feeds
 async function loadAllRSSFeeds() {
     console.log('🚀 Loading All RSS Feeds...');
@@ -263,9 +424,14 @@ async function loadAllRSSFeeds() {
         
         console.log(`\n📦 Processing batch ${Math.floor(i/batchSize) + 1}/${Math.ceil(allRSSFeeds.length/batchSize)}:`);
         
-        const batchPromises = batch.map((url, batchIndex) => 
-            fetchSingleRSS(url, i + batchIndex)
-        );
+        const batchPromises = batch.map(async (url, batchIndex) => {
+            // Try custom parser first, then fallback to rss-parser
+            let articles = await fetchSingleRSS(url, i + batchIndex);
+            if (articles.length === 0) {
+                articles = await fetchSingleRSSWithParser(url, i + batchIndex);
+            }
+            return articles;
+        });
         
         const batchResults = await Promise.all(batchPromises);
         
@@ -296,16 +462,23 @@ async function loadAllRSSFeeds() {
     console.log(`⏱️  Time taken: ${timeTaken} seconds`);
     
     if (totalArticles.length > 0) {
-        console.log('\n📰 SAMPLE ARTICLES (First 10):');
+        console.log('\n📰 SAMPLE ARTICLES (First 5):');
         console.log('='.repeat(100));
         
-        totalArticles.slice(0, 10).forEach((article, index) => {
+        totalArticles.slice(0, 5).forEach((article, index) => {
             console.log(`\n${index + 1}. ${article.title}`);
             console.log(`   📰 Source: ${article.source}`);
             console.log(`   📅 Published: ${article.publishedAt}`);
+            console.log(`   👤 Author: ${article.author}`);
             console.log(`   📝 Description: ${article.description}`);
+            console.log(`   🖼️  Image: ${article.imageUrl || 'No image'}`);
+            console.log(`   🏷️  Categories: ${article.categories.join(', ') || 'None'}`);
             console.log(`   🔗 URL: ${article.url}`);
         });
+        
+        // Count articles with images
+        const articlesWithImages = totalArticles.filter(article => article.imageUrl).length;
+        console.log(`\n🖼️ Articles with images: ${articlesWithImages}/${totalArticles.length} (${((articlesWithImages/totalArticles.length)*100).toFixed(1)}%)`);
         
         // Count by source
         console.log('\n📊 ARTICLES BY SOURCE:');
@@ -338,8 +511,14 @@ module.exports = {
 // Run if executed directly
 if (require.main === module) {
     loadAllRSSFeeds().then((articles) => {
-        const outputPath = path.join(__dirname,  '..', '..', 'public','news.json');
+        const outputPath = path.join(__dirname, '..', '..', 'public', 'news.json');
         fs.writeFileSync(outputPath, JSON.stringify(articles, null, 2), 'utf-8');
         console.log(`\n📝 Saved ${articles.length} articles to news.json`);
+        
+        // Also save a sample with images for verification
+        const articlesWithImages = articles.filter(article => article.imageUrl);
+        const samplePath = path.join(__dirname, '..', '..', 'public', 'news-with-images-sample.json');
+        fs.writeFileSync(samplePath, JSON.stringify(articlesWithImages.slice(0, 20), null, 2), 'utf-8');
+        console.log(`📸 Saved ${Math.min(20, articlesWithImages.length)} articles with images to news-with-images-sample.json`);
     });
 }

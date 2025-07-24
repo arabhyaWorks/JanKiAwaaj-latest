@@ -1,0 +1,4022 @@
+[
+  {
+    "Sr.": 1,
+    "constituency_no": "313",
+    "constituency_name": "Khalilabad",
+    "slug": "khalilabad",
+    "vidhayak": "Shri Ankur Tiwari",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sknagar"
+  },
+  {
+    "Sr.": 2,
+    "constituency_no": "374",
+    "constituency_name": "Saidpur",
+    "slug": "saidpur",
+    "vidhayak": "Shri Ankit Bharti",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Ghazipur"
+  },
+  {
+    "Sr.": 3,
+    "constituency_no": "346",
+    "constituency_name": "Mubarakpur",
+    "slug": "mubarakpur",
+    "vidhayak": "Shri Akhilesh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Azamgarh"
+  },
+  {
+    "Sr.": 4,
+    "constituency_no": "298",
+    "constituency_name": "Colonelganj",
+    "slug": "colonelganj",
+    "vidhayak": "Shri Ajay",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gonda"
+  },
+  {
+    "Sr.": 5,
+    "constituency_no": "50",
+    "constituency_name": "Chhaprauli",
+    "slug": "chhaprauli",
+    "vidhayak": "Dr. Ajay Kumar",
+    "party": "Rashtriya Lok Dal",
+    "party_color": "#00A65A",
+    "district": "Bagpat"
+  },
+  {
+    "Sr.": 6,
+    "constituency_no": "307",
+    "constituency_name": "Harraiya",
+    "slug": "harraiya",
+    "vidhayak": "Shri Ajay Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Basti"
+  },
+  {
+    "Sr.": 7,
+    "constituency_no": "54",
+    "constituency_name": "Muradnagar",
+    "slug": "muradnagar",
+    "vidhayak": "Shri Ajit Pal Tyagi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Ghaziabad"
+  },
+  {
+    "Sr.": 8,
+    "constituency_no": "207",
+    "constituency_name": "Sikandra",
+    "slug": "sikandra",
+    "vidhayak": "Shri Ajit Singh Pal",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kanpurdehat"
+  },
+  {
+    "Sr.": 9,
+    "constituency_no": "44",
+    "constituency_name": "Sardhana",
+    "slug": "sardhana",
+    "vidhayak": "Shri Atul Pradhan",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Meerut"
+  },
+  {
+    "Sr.": 10,
+    "constituency_no": "118",
+    "constituency_name": "Baheri",
+    "slug": "baheri",
+    "vidhayak": "Shri Ataur Rehman",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Bareilly"
+  },
+  {
+    "Sr.": 11,
+    "constituency_no": "180",
+    "constituency_name": "Rae Bareli",
+    "slug": "rae-bareli",
+    "vidhayak": "Smt. Aditi Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Raebareli"
+  },
+  {
+    "Sr.": 12,
+    "constituency_no": "78",
+    "constituency_name": "Hathras",
+    "slug": "hathras",
+    "vidhayak": "Smt. Anjula Singh Mahaur",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hathras"
+  },
+  {
+    "Sr.": 13,
+    "constituency_no": "286",
+    "constituency_name": "Bahraich",
+    "slug": "bahraich",
+    "vidhayak": "Smt. Anupma Jaiswal",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Behraich"
+  },
+  {
+    "Sr.": 14,
+    "constituency_no": "398",
+    "constituency_name": "Chunar",
+    "slug": "chunar",
+    "vidhayak": "Shri Anurag Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Mirzapur"
+  },
+  {
+    "Sr.": 15,
+    "constituency_no": "69",
+    "constituency_name": "Shikarpur",
+    "slug": "shikarpur",
+    "vidhayak": "Shri Anil Kumar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bulandshahar"
+  },
+  {
+    "Sr.": 16,
+    "constituency_no": "13",
+    "constituency_name": "Purqazi",
+    "slug": "purqazi",
+    "vidhayak": "Shri Anil Kumar",
+    "party": "Rashtriya Lok Dal",
+    "party_color": "#00A65A",
+    "district": "Muzaffarnagar"
+  },
+  {
+    "Sr.": 17,
+    "constituency_no": "312",
+    "constituency_name": "Menhdawal",
+    "slug": "menhdawal",
+    "vidhayak": "Shri Anil Kumar Tripathi",
+    "party": "Nirbal Indian Shoshit Hamara Aam Dal",
+    "party_color": "#AA0000",
+    "district": "Sknagar"
+  },
+  {
+    "Sr.": 18,
+    "constituency_no": "400",
+    "constituency_name": "Ghorawal",
+    "slug": "ghorawal",
+    "vidhayak": "Dr. Anil Kumar Maurya",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sonbhadra"
+  },
+  {
+    "Sr.": 19,
+    "constituency_no": "148",
+    "constituency_name": "Laharpur",
+    "slug": "laharpur",
+    "vidhayak": "Shri Anil Kumar Verma",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Sitapur"
+  },
+  {
+    "Sr.": 20,
+    "constituency_no": "167",
+    "constituency_name": "Purwa",
+    "slug": "purwa",
+    "vidhayak": "Shri Anil Kumar Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Unnao"
+  },
+  {
+    "Sr.": 21,
+    "constituency_no": "236",
+    "constituency_name": "Chitrakoot",
+    "slug": "chitrakoot",
+    "vidhayak": "Shri Anil Pradhan",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Chitrakoot"
+  },
+  {
+    "Sr.": 22,
+    "constituency_no": "75",
+    "constituency_name": "Koil",
+    "slug": "koil",
+    "vidhayak": "Shri Anil Parashar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Aligarh"
+  },
+  {
+    "Sr.": 23,
+    "constituency_no": "386",
+    "constituency_name": "Shivpur",
+    "slug": "shivpur",
+    "vidhayak": "Shri Anil Rajbhar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Varanasi"
+  },
+  {
+    "Sr.": 24,
+    "constituency_no": "276",
+    "constituency_name": "Goshainganj",
+    "slug": "goshainganj",
+    "vidhayak": "Shri Abhay Singh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Ayodhya (Faizabad)"
+  },
+  {
+    "Sr.": 25,
+    "constituency_no": "210",
+    "constituency_name": "Bithoor",
+    "slug": "bithoor",
+    "vidhayak": "Shri Abhijeet Singh Sanga",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kanpurnagar"
+  },
+  {
+    "Sr.": 26,
+    "constituency_no": "139",
+    "constituency_name": "Gola Gokrannath",
+    "slug": "gola gokrannath",
+    "vidhayak": "Shri Aman Giri",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lakhim Kheri"
+  },
+  {
+    "Sr.": 27,
+    "constituency_no": "176",
+    "constituency_name": "Mohanlalganj",
+    "slug": "mohanlalganj",
+    "vidhayak": "Shri Amresh Kumar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lucknow"
+  },
+  {
+    "Sr.": 28,
+    "constituency_no": "47",
+    "constituency_name": "Meerut Cantt.",
+    "slug": "meerut-cantt.",
+    "vidhayak": "Shri Amit Agarwal",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Meerut"
+  },
+  {
+    "Sr.": 29,
+    "constituency_no": "274",
+    "constituency_name": "Bikapur",
+    "slug": "bikapur",
+    "vidhayak": "Dr. Amit Singh Chauhan",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Ayodhya (Faizabad)"
+  },
+  {
+    "Sr.": 30,
+    "constituency_no": "214",
+    "constituency_name": "Arya Nagar",
+    "slug": "arya-nagar",
+    "vidhayak": "Shri Amitabh Bajpai",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Kanpurnagar"
+  },
+  {
+    "Sr.": 31,
+    "constituency_no": "196",
+    "constituency_name": "Chhibramau",
+    "slug": "chhibramau",
+    "vidhayak": "Smt. Archana Pandey",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kannauj"
+  },
+  {
+    "Sr.": 32,
+    "constituency_no": "124",
+    "constituency_name": "Bareilly",
+    "slug": "bareilly",
+    "vidhayak": "Dr. Arun Kumar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bareilly"
+  },
+  {
+    "Sr.": 33,
+    "constituency_no": "171",
+    "constituency_name": "Lucknow West",
+    "slug": "lucknow-west",
+    "vidhayak": "Shri Armaan Khan",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Lucknow"
+  },
+  {
+    "Sr.": 34,
+    "constituency_no": "136",
+    "constituency_name": "Dadraul",
+    "slug": "dadraul",
+    "vidhayak": "Shri Arvind Kumar Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Shahjahanpur"
+  },
+  {
+    "Sr.": 35,
+    "constituency_no": "161",
+    "constituency_name": "Sandila",
+    "slug": "sandila",
+    "vidhayak": "Smt. Alka Singh 'Arkvanshi'",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hardoi"
+  },
+  {
+    "Sr.": 36,
+    "constituency_no": "384",
+    "constituency_name": "Pindra",
+    "slug": "pindra",
+    "vidhayak": "Dr. Awadhesh Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Varanasi"
+  },
+  {
+    "Sr.": 37,
+    "constituency_no": "237",
+    "constituency_name": "Manikpur",
+    "slug": "manikpur",
+    "vidhayak": "Shri Avinash Chandra Dwivedi",
+    "party": "Apna Dal (SoneLal)",
+    "party_color": "#FF6600",
+    "district": "Chitrakoot"
+  },
+  {
+    "Sr.": 38,
+    "constituency_no": "9",
+    "constituency_name": "Thana Bhawan",
+    "slug": "thana-bhawan",
+    "vidhayak": "Shri Ashraf Ali Khan",
+    "party": "Rashtriya Lok Dal",
+    "party_color": "#00A65A",
+    "district": "Shamali"
+  },
+  {
+    "Sr.": 39,
+    "constituency_no": "181",
+    "constituency_name": "Salon",
+    "slug": "salon",
+    "vidhayak": "Shri Ashok Kumar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Raebareli"
+  },
+  {
+    "Sr.": 40,
+    "constituency_no": "20",
+    "constituency_name": "Dhampur",
+    "slug": "dhampur",
+    "vidhayak": "Shri Ashok Kumar Rana",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bijnor"
+  },
+  {
+    "Sr.": 41,
+    "constituency_no": "198",
+    "constituency_name": "Kannauj",
+    "slug": "kannauj",
+    "vidhayak": "Shri Asim Arun",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kannauj"
+  },
+  {
+    "Sr.": 42,
+    "constituency_no": "331",
+    "constituency_name": "Tamkuhi Raj",
+    "slug": "tamkuhi-raj",
+    "vidhayak": "Dr. Asim Kumar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kushinagar"
+  },
+  {
+    "Sr.": 43,
+    "constituency_no": "37",
+    "constituency_name": "Rampur",
+    "slug": "rampur",
+    "vidhayak": "Shri Akash Saxena (Hani)",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Rampur"
+  },
+  {
+    "Sr.": 44,
+    "constituency_no": "322",
+    "constituency_name": "Gorakhpur Urban",
+    "slug": "gorakhpur urban",
+    "vidhayak": "Yogi Adityanath",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gorakhpur"
+  },
+  {
+    "Sr.": 45,
+    "constituency_no": "288",
+    "constituency_name": "Kaiserganj",
+    "slug": "kaiserganj",
+    "vidhayak": "Shri Anand Kumar Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Behraich"
+  },
+  {
+    "Sr.": 46,
+    "constituency_no": "370",
+    "constituency_name": "Mariyahu",
+    "slug": "mariyahu",
+    "vidhayak": "Dr. R.k. Patel",
+    "party": "Apna Dal (SoneLal)",
+    "party_color": "#FF6600",
+    "district": "Jaunpur"
+  },
+  {
+    "Sr.": 47,
+    "constituency_no": "244",
+    "constituency_name": "Rampur Khas",
+    "slug": "rampur-khas",
+    "vidhayak": "Smt. Aradhana Mishra, Mona",
+    "party": "Indian National Congress",
+    "party_color": "#008000",
+    "district": "Pratapgarh"
+  },
+  {
+    "Sr.": 48,
+    "constituency_no": "348",
+    "constituency_name": "Nizamabad",
+    "slug": "nizamabad",
+    "vidhayak": "Shri Alam Badi",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Azamgarh"
+  },
+  {
+    "Sr.": 49,
+    "constituency_no": "4",
+    "constituency_name": "Saharanpur",
+    "slug": "saharanpur",
+    "vidhayak": "Shri Ashu Malik",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Saharanpur"
+  },
+  {
+    "Sr.": 50,
+    "constituency_no": "112",
+    "constituency_name": "Bisauli",
+    "slug": "bisauli",
+    "vidhayak": "Shri Ashutosh Maurya Urf Raju",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Badaun"
+  },
+  {
+    "Sr.": 51,
+    "constituency_no": "166",
+    "constituency_name": "Bhagwantnagar",
+    "slug": "bhagwantnagar",
+    "vidhayak": "Shri Ashutosh Shukla",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Unnao"
+  },
+  {
+    "Sr.": 52,
+    "constituency_no": "151",
+    "constituency_name": "Mahmoodabad",
+    "slug": "mahmoodabad",
+    "vidhayak": "Smt. Asha Maurya",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sitapur"
+  },
+  {
+    "Sr.": 53,
+    "constituency_no": "159",
+    "constituency_name": "Bilgram- Mallanwan",
+    "slug": "bilgram- mallanwan",
+    "vidhayak": "Shri Ashish Kumar Singh 'Ashu'",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hardoi"
+  },
+  {
+    "Sr.": 54,
+    "constituency_no": "33",
+    "constituency_name": "Sambhal",
+    "slug": "sambhal",
+    "vidhayak": "Shri Iqbal Mehmood",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Sambhal"
+  },
+  {
+    "Sr.": 55,
+    "constituency_no": "252",
+    "constituency_name": "Manjhanpur",
+    "slug": "manjhanpur",
+    "vidhayak": "Shri Indrajeet Saroj",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Kaushambhi"
+  },
+  {
+    "Sr.": 56,
+    "constituency_no": "289",
+    "constituency_name": "Bhinga",
+    "slug": "bhinga",
+    "vidhayak": "Smt. Indrani Devi",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Shravasti"
+  },
+  {
+    "Sr.": 57,
+    "constituency_no": "1",
+    "constituency_name": "Behat",
+    "slug": "behat",
+    "vidhayak": "Shri Umar Ali Khan",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Saharanpur"
+  },
+  {
+    "Sr.": 58,
+    "constituency_no": "358",
+    "constituency_name": "Rasara",
+    "slug": "rasara",
+    "vidhayak": "Shri Umashankar Singh",
+    "party": "Bahujan Samaj Party",
+    "party_color": "#0000FF",
+    "district": "Ballia"
+  },
+  {
+    "Sr.": 59,
+    "constituency_no": "242",
+    "constituency_name": "Husainganj",
+    "slug": "husainganj",
+    "vidhayak": "Smt. Usha Maurya Urf Aneela Maurya",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Fatehpur"
+  },
+  {
+    "Sr.": 60,
+    "constituency_no": "316",
+    "constituency_name": "Nautanwan",
+    "slug": "nautanwan",
+    "vidhayak": "Shri Rishi Tripathi",
+    "party": "Nirbal Indian Shoshit Hamara Aam Dal",
+    "party_color": "#AA0000",
+    "district": "Maharajganj"
+  },
+  {
+    "Sr.": 61,
+    "constituency_no": "121",
+    "constituency_name": "Nawabganj",
+    "slug": "nawabganj",
+    "vidhayak": "Dr. M. P. Arya",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bareilly"
+  },
+  {
+    "Sr.": 62,
+    "constituency_no": "173",
+    "constituency_name": "Lucknow East",
+    "slug": "lucknow-east",
+    "vidhayak": "Shri O.p. Srivastava",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lucknow"
+  },
+  {
+    "Sr.": 63,
+    "constituency_no": "379",
+    "constituency_name": "Zamania",
+    "slug": "zamania",
+    "vidhayak": "Shri Om Prakash",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Ghazipur"
+  },
+  {
+    "Sr.": 64,
+    "constituency_no": "377",
+    "constituency_name": "Zahoorabad",
+    "slug": "zahoorabad",
+    "vidhayak": "Shri Om Prakash Rajbhar",
+    "party": "Suheldev Bharatiya Samaj Party",
+    "party_color": "#FFD700",
+    "district": "Ghazipur"
+  },
+  {
+    "Sr.": 65,
+    "constituency_no": "21",
+    "constituency_name": "Nehtaur",
+    "slug": "nehtaur",
+    "vidhayak": "Shri Omkumar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bijnor"
+  },
+  {
+    "Sr.": 66,
+    "constituency_no": "234",
+    "constituency_name": "Naraini",
+    "slug": "naraini",
+    "vidhayak": "Smt. Ommani Varma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Banda"
+  },
+  {
+    "Sr.": 67,
+    "constituency_no": "362",
+    "constituency_name": "Bansdih",
+    "slug": "bansdih",
+    "vidhayak": "Smt. Ketakee Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Ballia"
+  },
+  {
+    "Sr.": 68,
+    "constituency_no": "14",
+    "constituency_name": "Muzaffar Nagar",
+    "slug": "muzaffar-nagar",
+    "vidhayak": "Shri Kapil Dev Agarwal",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Muzaffarnagar"
+  },
+  {
+    "Sr.": 69,
+    "constituency_no": "350",
+    "constituency_name": "Didarganj",
+    "slug": "didarganj",
+    "vidhayak": "Shri Kamlakant Rajbhar Urf Pappu",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Azamgarh"
+  },
+  {
+    "Sr.": 70,
+    "constituency_no": "25",
+    "constituency_name": "Kanth",
+    "slug": "kanth",
+    "vidhayak": "Shri Kamal Akhtar",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Moradabad"
+  },
+  {
+    "Sr.": 71,
+    "constituency_no": "383",
+    "constituency_name": "Chakia",
+    "slug": "chakia",
+    "vidhayak": "Shri Kailash",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Chandauli"
+  },
+  {
+    "Sr.": 72,
+    "constituency_no": "291",
+    "constituency_name": "Tulsipur",
+    "slug": "tulsipur",
+    "vidhayak": "Shri Kailash Nath",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Balrampur"
+  },
+  {
+    "Sr.": 73,
+    "constituency_no": "197",
+    "constituency_name": "Tirwa",
+    "slug": "tirwa",
+    "vidhayak": "Shri Kailash Rajput",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kannauj"
+  },
+  {
+    "Sr.": 74,
+    "constituency_no": "308",
+    "constituency_name": "Kaptanganj",
+    "slug": "kaptanganj",
+    "vidhayak": "Shri Kavindra Chaudhary",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Basti"
+  },
+  {
+    "Sr.": 75,
+    "constituency_no": "51",
+    "constituency_name": "Baraut",
+    "slug": "baraut",
+    "vidhayak": "Shri Krishan Pal Malik",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bagpat"
+  },
+  {
+    "Sr.": 76,
+    "constituency_no": "243",
+    "constituency_name": "Khaga",
+    "slug": "khaga",
+    "vidhayak": "Smt. Krishna Paswan",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Fatehpur"
+  },
+  {
+    "Sr.": 77,
+    "constituency_no": "7",
+    "constituency_name": "Gangoh",
+    "slug": "gangoh",
+    "vidhayak": "Shri Kirat Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Saharanpur"
+  },
+  {
+    "Sr.": 78,
+    "constituency_no": "204",
+    "constituency_name": "Auraiya",
+    "slug": "auraiya",
+    "vidhayak": "Smt. Gudiya Devi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Auraya"
+  },
+  {
+    "Sr.": 79,
+    "constituency_no": "314",
+    "constituency_name": "Dhanghata",
+    "slug": "dhanghata",
+    "vidhayak": "Shri Ganesh Chandra",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sknagar"
+  },
+  {
+    "Sr.": 80,
+    "constituency_no": "254",
+    "constituency_name": "Phaphamau",
+    "slug": "phaphamau",
+    "vidhayak": "Shri Guru Prasad Maurya",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Prayagraj (Allahabad)"
+  },
+  {
+    "Sr.": 81,
+    "constituency_no": "31",
+    "constituency_name": "Chandausi",
+    "slug": "chandausi",
+    "vidhayak": "Smt. Gulab Debi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sambhal"
+  },
+  {
+    "Sr.": 82,
+    "constituency_no": "43",
+    "constituency_name": "Siwalkhas",
+    "slug": "siwalkhas",
+    "vidhayak": "Shri Ghulam Mohammad",
+    "party": "Rashtriya Lok Dal",
+    "party_color": "#00A65A",
+    "district": "Meerut"
+  },
+  {
+    "Sr.": 83,
+    "constituency_no": "366",
+    "constituency_name": "Jaunpur",
+    "slug": "jaunpur",
+    "vidhayak": "Shri Girish Chandra Yadav",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Jaunpur"
+  },
+  {
+    "Sr.": 84,
+    "constituency_no": "255",
+    "constituency_name": "Soraon",
+    "slug": "soraon",
+    "vidhayak": "Smt. Geeta Shastri (Pasi)",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Prayagraj (Allahabad)"
+  },
+  {
+    "Sr.": 85,
+    "constituency_no": "269",
+    "constituency_name": "Zaidpur",
+    "slug": "zaidpur",
+    "vidhayak": "Shri Gaurav Kumar",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Barabanki"
+  },
+  {
+    "Sr.": 86,
+    "constituency_no": "221",
+    "constituency_name": "Orai",
+    "slug": "orai",
+    "vidhayak": "Shri Gauri Shankar Verma (Kori)",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Jalaun"
+  },
+  {
+    "Sr.": 87,
+    "constituency_no": "134",
+    "constituency_name": "Powayan",
+    "slug": "powayan",
+    "vidhayak": "Shri Chetram",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Shahjahanpur"
+  },
+  {
+    "Sr.": 88,
+    "constituency_no": "240",
+    "constituency_name": "Fatehpur",
+    "slug": "fatehpur",
+    "vidhayak": "Shri Chandra Prakash Lodhi (Advocate)",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Fatehpur"
+  },
+  {
+    "Sr.": 89,
+    "constituency_no": "68",
+    "constituency_name": "Debai",
+    "slug": "debai",
+    "vidhayak": "Shri Chandrapal Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bulandshahar"
+  },
+  {
+    "Sr.": 90,
+    "constituency_no": "273",
+    "constituency_name": "Milkipur",
+    "slug": "milkipur",
+    "vidhayak": "Shri Chandrabhanu Paswan",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Ayodhya (Faizabad)"
+  },
+  {
+    "Sr.": 91,
+    "constituency_no": "93",
+    "constituency_name": "Fatehabad",
+    "slug": "fatehabad",
+    "vidhayak": "Shri Chhotey Lal Verma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Agra"
+  },
+  {
+    "Sr.": 92,
+    "constituency_no": "375",
+    "constituency_name": "Ghazipur",
+    "slug": "ghazipur",
+    "vidhayak": "Shri Jaikishan Sahu",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Ghazipur"
+  },
+  {
+    "Sr.": 93,
+    "constituency_no": "371",
+    "constituency_name": "Zafrabad",
+    "slug": "zafrabad",
+    "vidhayak": "Shri Jagdish Narayan",
+    "party": "Suheldev Bharatiya Samaj Party",
+    "party_color": "#FFD700",
+    "district": "Jaunpur"
+  },
+  {
+    "Sr.": 94,
+    "constituency_no": "150",
+    "constituency_name": "Sevata",
+    "slug": "sevata",
+    "vidhayak": "Shri Gyan Tiwari",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sitapur"
+  },
+  {
+    "Sr.": 95,
+    "constituency_no": "319",
+    "constituency_name": "Paniyara",
+    "slug": "paniyara",
+    "vidhayak": "Shri Gyanendra Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Maharajganj"
+  },
+  {
+    "Sr.": 96,
+    "constituency_no": "239",
+    "constituency_name": "Bindki",
+    "slug": "bindki",
+    "vidhayak": "Shri Jay Kumar Singh Jaiki",
+    "party": "Apna Dal (SoneLal)",
+    "party_color": "#FF6600",
+    "district": "Fatehpur"
+  },
+  {
+    "Sr.": 97,
+    "constituency_no": "168",
+    "constituency_name": "Malihabad",
+    "slug": "malihabad",
+    "vidhayak": "Smt. Jai Devi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lucknow"
+  },
+  {
+    "Sr.": 98,
+    "constituency_no": "304",
+    "constituency_name": "Bansi",
+    "slug": "bansi",
+    "vidhayak": "Shri Jai Pratap Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sidharthnagar"
+  },
+  {
+    "Sr.": 99,
+    "constituency_no": "128",
+    "constituency_name": "Barkhera",
+    "slug": "barkhera",
+    "vidhayak": "Shri Jaydrath Urf Pravaktanand",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Pilibhit"
+  },
+  {
+    "Sr.": 100,
+    "constituency_no": "363",
+    "constituency_name": "Bairia",
+    "slug": "bairia",
+    "vidhayak": "Shri Jai Prakash Anchal",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Ballia"
+  },
+  {
+    "Sr.": 101,
+    "constituency_no": "336",
+    "constituency_name": "Rudrapur",
+    "slug": "rudrapur",
+    "vidhayak": "Shri Jai Prakash Nishad",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Deoria"
+  },
+  {
+    "Sr.": 102,
+    "constituency_no": "318",
+    "constituency_name": "Maharajganj",
+    "slug": "maharajganj",
+    "vidhayak": "Shri Jay Mangal",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Maharajganj"
+  },
+  {
+    "Sr.": 103,
+    "constituency_no": "107",
+    "constituency_name": "Mainpuri",
+    "slug": "mainpuri",
+    "vidhayak": "Shri Jayveer Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Mainpuri"
+  },
+  {
+    "Sr.": 104,
+    "constituency_no": "72",
+    "constituency_name": "Barauli",
+    "slug": "barauli",
+    "vidhayak": "Shri Jaiveer Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Aligarh"
+  },
+  {
+    "Sr.": 105,
+    "constituency_no": "225",
+    "constituency_name": "Garautha",
+    "slug": "garautha",
+    "vidhayak": "Shri Jawahar Lal Rajput",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Jhansi"
+  },
+  {
+    "Sr.": 106,
+    "constituency_no": "392",
+    "constituency_name": "Bhadohi",
+    "slug": "bhadohi",
+    "vidhayak": "Shri Zahid",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Bhadohi"
+  },
+  {
+    "Sr.": 107,
+    "constituency_no": "359",
+    "constituency_name": "Sikanderpur",
+    "slug": "sikanderpur",
+    "vidhayak": "Shri Ziyauddin Rizivi",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Ballia"
+  },
+  {
+    "Sr.": 108,
+    "constituency_no": "87",
+    "constituency_name": "Agra Cantt.",
+    "slug": "agra-cantt.",
+    "vidhayak": "Dr. G S Dharmesh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Agra"
+  },
+  {
+    "Sr.": 109,
+    "constituency_no": "247",
+    "constituency_name": "Bishwavnathganj",
+    "slug": "bishwavnathganj",
+    "vidhayak": "Shri Jeet Lal Patel",
+    "party": "Apna Dal (SoneLal)",
+    "party_color": "#FF6600",
+    "district": "Pratapgarh"
+  },
+  {
+    "Sr.": 110,
+    "constituency_no": "119",
+    "constituency_name": "Meerganj",
+    "slug": "meerganj",
+    "vidhayak": "Dr. D. C. Verma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bareilly"
+  },
+  {
+    "Sr.": 111,
+    "constituency_no": "110",
+    "constituency_name": "Karhal",
+    "slug": "karhal",
+    "vidhayak": "Shri Tej Pratap Singh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Mainpuri"
+  },
+  {
+    "Sr.": 112,
+    "constituency_no": "62",
+    "constituency_name": "Dadri",
+    "slug": "dadri",
+    "vidhayak": "Shri Tejpal Singh Nagar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gbnagar"
+  },
+  {
+    "Sr.": 113,
+    "constituency_no": "372",
+    "constituency_name": "Kerakat",
+    "slug": "kerakat",
+    "vidhayak": "Shri Tufani Saroj",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Jaunpur"
+  },
+  {
+    "Sr.": 114,
+    "constituency_no": "279",
+    "constituency_name": "Alapur",
+    "slug": "alapur",
+    "vidhayak": "Shri Tribhuwan Dutt",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Ambedkarnagar"
+  },
+  {
+    "Sr.": 115,
+    "constituency_no": "385",
+    "constituency_name": "Ajagara",
+    "slug": "ajagara",
+    "vidhayak": "Shri Tribhuwan Ram",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Varanasi"
+  },
+  {
+    "Sr.": 116,
+    "constituency_no": "17",
+    "constituency_name": "Najibabad",
+    "slug": "najibabad",
+    "vidhayak": "Shri Tasleem Ahmad",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Bijnor"
+  },
+  {
+    "Sr.": 117,
+    "constituency_no": "187",
+    "constituency_name": "Isauli",
+    "slug": "isauli",
+    "vidhayak": "Mo. Tahir Khan",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Sultanpur"
+  },
+  {
+    "Sr.": 118,
+    "constituency_no": "311",
+    "constituency_name": "Mahadewa",
+    "slug": "mahadewa",
+    "vidhayak": "Shri Dudhram",
+    "party": "Suheldev Bharatiya Samaj Party",
+    "party_color": "#FFD700",
+    "district": "Basti"
+  },
+  {
+    "Sr.": 119,
+    "constituency_no": "361",
+    "constituency_name": "Ballia Nagar",
+    "slug": "ballia-nagar",
+    "vidhayak": "Shri Daya Shankar Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Ballia"
+  },
+  {
+    "Sr.": 120,
+    "constituency_no": "347",
+    "constituency_name": "Azamgarh",
+    "slug": "azamgarh",
+    "vidhayak": "Shri Durga Prasad Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Azamgarh"
+  },
+  {
+    "Sr.": 121,
+    "constituency_no": "6",
+    "constituency_name": "Rampur Maniharan",
+    "slug": "rampur maniharan",
+    "vidhayak": "Shri Devender Kumar Nim",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Saharanpur"
+  },
+  {
+    "Sr.": 122,
+    "constituency_no": "182",
+    "constituency_name": "Sareni",
+    "slug": "sareni",
+    "vidhayak": "Shri Devendra Pratap Singh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Raebareli"
+  },
+  {
+    "Sr.": 123,
+    "constituency_no": "100",
+    "constituency_name": "Kasganj",
+    "slug": "kasganj",
+    "vidhayak": "Shri Devendra Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kasganj"
+  },
+  {
+    "Sr.": 124,
+    "constituency_no": "66",
+    "constituency_name": "Syana",
+    "slug": "syana",
+    "vidhayak": "Shri Devendra Singh Lodhi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bulandshahar"
+  },
+  {
+    "Sr.": 125,
+    "constituency_no": "45",
+    "constituency_name": "Hastinapur",
+    "slug": "hastinapur",
+    "vidhayak": "Shri Dinesh Kumar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Meerut"
+  },
+  {
+    "Sr.": 126,
+    "constituency_no": "272",
+    "constituency_name": "Haidergarh",
+    "slug": "haidergarh",
+    "vidhayak": "Shri Dinesh Rawat",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Barabanki"
+  },
+  {
+    "Sr.": 127,
+    "constituency_no": "394",
+    "constituency_name": "Aurai",
+    "slug": "aurai",
+    "vidhayak": "Shri Dinanath Bhashkar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bhadohi"
+  },
+  {
+    "Sr.": 128,
+    "constituency_no": "342",
+    "constituency_name": "Barhaj",
+    "slug": "barhaj",
+    "vidhayak": "Shri Deepak Kumar Mishra \"Shaka\"",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Deoria"
+  },
+  {
+    "Sr.": 129,
+    "constituency_no": "256",
+    "constituency_name": "Phulpur",
+    "slug": "phulpur",
+    "vidhayak": "Shri Deepak Patel",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Prayagraj (Allahabad)"
+  },
+  {
+    "Sr.": 130,
+    "constituency_no": "86",
+    "constituency_name": "Etmadpur",
+    "slug": "etmadpur",
+    "vidhayak": "Dr. Dharmpal Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Agra"
+  },
+  {
+    "Sr.": 131,
+    "constituency_no": "126",
+    "constituency_name": "Aonla",
+    "slug": "aonla",
+    "vidhayak": "Shri Dharmpal Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bareilly"
+  },
+  {
+    "Sr.": 132,
+    "constituency_no": "277",
+    "constituency_name": "Katehari",
+    "slug": "katehari",
+    "vidhayak": "Shri Dharmraj Nishad",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Ambedkarnagar"
+  },
+  {
+    "Sr.": 133,
+    "constituency_no": "268",
+    "constituency_name": "Barabanki",
+    "slug": "barabanki",
+    "vidhayak": "Shri Dharmraj Singh Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Barabanki"
+  },
+  {
+    "Sr.": 134,
+    "constituency_no": "58",
+    "constituency_name": "Dholana",
+    "slug": "dholana",
+    "vidhayak": "Shri Dharmesh Singh Tomar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hapur"
+  },
+  {
+    "Sr.": 135,
+    "constituency_no": "63",
+    "constituency_name": "Jewar",
+    "slug": "jewar",
+    "vidhayak": "Shri Dhirendra Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gbnagar"
+  },
+  {
+    "Sr.": 136,
+    "constituency_no": "53",
+    "constituency_name": "Loni",
+    "slug": "loni",
+    "vidhayak": "Shri Nand Kishor Gurjar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Ghaziabad"
+  },
+  {
+    "Sr.": 137,
+    "constituency_no": "263",
+    "constituency_name": "Prayagraj (Allahabad) South",
+    "slug": "prayagraj (allahabad)-south",
+    "vidhayak": "Shri Nand Gopal Gupta \"Nandi\"",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Prayagraj (Allahabad)"
+  },
+  {
+    "Sr.": 138,
+    "constituency_no": "344",
+    "constituency_name": "Gopalpur",
+    "slug": "gopalpur",
+    "vidhayak": "Shri Nafees Ahmad",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Azamgarh"
+  },
+  {
+    "Sr.": 139,
+    "constituency_no": "26",
+    "constituency_name": "Thakurdwara",
+    "slug": "thakurdwara",
+    "vidhayak": "Shri Navab Jan",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Moradabad"
+  },
+  {
+    "Sr.": 140,
+    "constituency_no": "213",
+    "constituency_name": "Sishamau",
+    "slug": "sishamau",
+    "vidhayak": "Smt. Naseem Solanki",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Kanpurnagar"
+  },
+  {
+    "Sr.": 141,
+    "constituency_no": "35",
+    "constituency_name": "Chamraua",
+    "slug": "chamraua",
+    "vidhayak": "Shri Naseer Ahmad Khan",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Rampur"
+  },
+  {
+    "Sr.": 142,
+    "constituency_no": "195",
+    "constituency_name": "Bhojpur",
+    "slug": "bhojpur",
+    "vidhayak": "Shri Nagendra Singh Rathour",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Farrukhabad"
+  },
+  {
+    "Sr.": 143,
+    "constituency_no": "102",
+    "constituency_name": "Patiyali",
+    "slug": "patiyali",
+    "vidhayak": "Smt. Nadira Sultan Alias Bitiya",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Kasganj"
+  },
+  {
+    "Sr.": 144,
+    "constituency_no": "27",
+    "constituency_name": "Moradabad Rural",
+    "slug": "moradabad rural",
+    "vidhayak": "Mohammad Nasir Qureshi",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Moradabad"
+  },
+  {
+    "Sr.": 145,
+    "constituency_no": "8",
+    "constituency_name": "Kairana",
+    "slug": "kairana",
+    "vidhayak": "Shri Nahid Hasan",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Shamali"
+  },
+  {
+    "Sr.": 146,
+    "constituency_no": "156",
+    "constituency_name": "Hardoi",
+    "slug": "hardoi",
+    "vidhayak": "Shri Nitin Agarwal",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hardoi"
+  },
+  {
+    "Sr.": 147,
+    "constituency_no": "149",
+    "constituency_name": "Biswan",
+    "slug": "biswan",
+    "vidhayak": "Shri Nirmal Verma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sitapur"
+  },
+  {
+    "Sr.": 148,
+    "constituency_no": "172",
+    "constituency_name": "Lucknow North",
+    "slug": "lucknow-north",
+    "vidhayak": "Dr. Neeraj Bora",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lucknow"
+  },
+  {
+    "Sr.": 149,
+    "constituency_no": "391",
+    "constituency_name": "Sevapuri",
+    "slug": "sevapuri",
+    "vidhayak": "Shri Neel Ratan Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Varanasi"
+  },
+  {
+    "Sr.": 150,
+    "constituency_no": "389",
+    "constituency_name": "Varanasi South",
+    "slug": "varanasi-south",
+    "vidhayak": "Dr. Neelkanth Tiwari",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Varanasi"
+  },
+  {
+    "Sr.": 151,
+    "constituency_no": "211",
+    "constituency_name": "Kalyanpur",
+    "slug": "kalyanpur",
+    "vidhayak": "Smt. Neelima Katiyar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kanpurnagar"
+  },
+  {
+    "Sr.": 152,
+    "constituency_no": "12",
+    "constituency_name": "Charthawal",
+    "slug": "charthawal",
+    "vidhayak": "Shri Pankaj Kumar Malik",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Muzaffarnagar"
+  },
+  {
+    "Sr.": 153,
+    "constituency_no": "165",
+    "constituency_name": "Unnao",
+    "slug": "unnao",
+    "vidhayak": "Shri Pankaj Gupta",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Unnao"
+  },
+  {
+    "Sr.": 154,
+    "constituency_no": "368",
+    "constituency_name": "Mungra Badshahpur",
+    "slug": "mungra badshahpur",
+    "vidhayak": "Shri Pankaj Patel",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Jaunpur"
+  },
+  {
+    "Sr.": 155,
+    "constituency_no": "61",
+    "constituency_name": "Noida",
+    "slug": "noida",
+    "vidhayak": "Shri Pankaj Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gbnagar"
+  },
+  {
+    "Sr.": 156,
+    "constituency_no": "333",
+    "constituency_name": "Kushinagar",
+    "slug": "kushinagar",
+    "vidhayak": "Shri Panchanand Pathak (P.n. Pathak)",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kushinagar"
+  },
+  {
+    "Sr.": 157,
+    "constituency_no": "352",
+    "constituency_name": "Mehnagar",
+    "slug": "mehnagar",
+    "vidhayak": "Smt. Puja",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Azamgarh"
+  },
+  {
+    "Sr.": 158,
+    "constituency_no": "253",
+    "constituency_name": "Chail",
+    "slug": "chail",
+    "vidhayak": "Smt. Pooja Pal",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Kaushambhi"
+  },
+  {
+    "Sr.": 159,
+    "constituency_no": "205",
+    "constituency_name": "Rasulabad",
+    "slug": "rasulabad",
+    "vidhayak": "Smt. Poonam Sankhwar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kanpurdehat"
+  },
+  {
+    "Sr.": 160,
+    "constituency_no": "235",
+    "constituency_name": "Banda",
+    "slug": "banda",
+    "vidhayak": "Shri Prakash Dwivedi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Banda"
+  },
+  {
+    "Sr.": 161,
+    "constituency_no": "206",
+    "constituency_name": "Akbarpur - Raniya",
+    "slug": "akbarpur-- raniya",
+    "vidhayak": "Smt. Pratibha Shukla",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kanpurdehat"
+  },
+  {
+    "Sr.": 162,
+    "constituency_no": "296",
+    "constituency_name": "Gonda",
+    "slug": "gonda",
+    "vidhayak": "Shri Prateek Bhushan Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gonda"
+  },
+  {
+    "Sr.": 163,
+    "constituency_no": "65",
+    "constituency_name": "Bulandshahr",
+    "slug": "bulandshahr",
+    "vidhayak": "Shri Pradeep Kumar Chaudhary",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bulandshahar"
+  },
+  {
+    "Sr.": 164,
+    "constituency_no": "203",
+    "constituency_name": "Dibiyapur",
+    "slug": "dibiyapur",
+    "vidhayak": "Shri Pradeep Kumar Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Auraya"
+  },
+  {
+    "Sr.": 165,
+    "constituency_no": "79",
+    "constituency_name": "Sadabad",
+    "slug": "sadabad",
+    "vidhayak": "Shri Pradeep Kumar Singh Urf Guddu Chaudhary",
+    "party": "Rashtriya Lok Dal",
+    "party_color": "#00A65A",
+    "district": "Hathras"
+  },
+  {
+    "Sr.": 166,
+    "constituency_no": "324",
+    "constituency_name": "Sahajanwa",
+    "slug": "sahajanwa",
+    "vidhayak": "Shri Pradeep Shukla",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gorakhpur"
+  },
+  {
+    "Sr.": 167,
+    "constituency_no": "85",
+    "constituency_name": "Baldev",
+    "slug": "baldev",
+    "vidhayak": "Shri Puran Prakash",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Mathura"
+  },
+  {
+    "Sr.": 168,
+    "constituency_no": "381",
+    "constituency_name": "Sakaldiha",
+    "slug": "sakaldiha",
+    "vidhayak": "Shri Prabhu Narayan Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Chandauli"
+  },
+  {
+    "Sr.": 169,
+    "constituency_no": "301",
+    "constituency_name": "Gaura",
+    "slug": "gaura",
+    "vidhayak": "Shri Prabhat Kumar Verma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gonda"
+  },
+  {
+    "Sr.": 170,
+    "constituency_no": "158",
+    "constituency_name": "Sandi",
+    "slug": "sandi",
+    "vidhayak": "Shri Prabhash Kumar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hardoi"
+  },
+  {
+    "Sr.": 171,
+    "constituency_no": "299",
+    "constituency_name": "Tarabganj",
+    "slug": "tarabganj",
+    "vidhayak": "Shri Prem Nrayan Pandey",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gonda"
+  },
+  {
+    "Sr.": 172,
+    "constituency_no": "95",
+    "constituency_name": "Tundla",
+    "slug": "tundla",
+    "vidhayak": "Shri Prem Pal Singh Dhangar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Firozabad"
+  },
+  {
+    "Sr.": 173,
+    "constituency_no": "317",
+    "constituency_name": "Siswa",
+    "slug": "siswa",
+    "vidhayak": "Shri Premsagar Patel",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Maharajganj"
+  },
+  {
+    "Sr.": 174,
+    "constituency_no": "89",
+    "constituency_name": "Agra North",
+    "slug": "agra-north",
+    "vidhayak": "Shri Purushottam Khandelwal",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Agra"
+  },
+  {
+    "Sr.": 175,
+    "constituency_no": "10",
+    "constituency_name": "Shamli",
+    "slug": "shamli",
+    "vidhayak": "Shri Persann Kumar",
+    "party": "Rashtriya Lok Dal",
+    "party_color": "#00A65A",
+    "district": "Shamali"
+  },
+  {
+    "Sr.": 176,
+    "constituency_no": "294",
+    "constituency_name": "Balrampur",
+    "slug": "balrampur",
+    "vidhayak": "Shri Paltoo Ram",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Balrampur"
+  },
+  {
+    "Sr.": 177,
+    "constituency_no": "251",
+    "constituency_name": "Sirathu",
+    "slug": "sirathu",
+    "vidhayak": "Dr. Pallavi Patel",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Kaushambhi"
+  },
+  {
+    "Sr.": 178,
+    "constituency_no": "32",
+    "constituency_name": "Asmoli",
+    "slug": "asmoli",
+    "vidhayak": "Smt. Pinki Singh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Sambhal"
+  },
+  {
+    "Sr.": 179,
+    "constituency_no": "260",
+    "constituency_name": "Karachhana",
+    "slug": "karachhana",
+    "vidhayak": "Shri Piyush Ranjan Nishad",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Prayagraj (Allahabad)"
+  },
+  {
+    "Sr.": 180,
+    "constituency_no": "320",
+    "constituency_name": "Caimpiyarganj",
+    "slug": "caimpiyarganj",
+    "vidhayak": "Shri Fateh Bahadur",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gorakhpur"
+  },
+  {
+    "Sr.": 181,
+    "constituency_no": "267",
+    "constituency_name": "Ram Nagar",
+    "slug": "ram-nagar",
+    "vidhayak": "Shri Fareed Mahfooz Kidwai",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Barabanki"
+  },
+  {
+    "Sr.": 182,
+    "constituency_no": "30",
+    "constituency_name": "Bilari",
+    "slug": "bilari",
+    "vidhayak": "Mau. Faheem Irfan",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Moradabad"
+  },
+  {
+    "Sr.": 183,
+    "constituency_no": "351",
+    "constituency_name": "Lalganj",
+    "slug": "lalganj",
+    "vidhayak": "Shri Bechai Saroj",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Azamgarh"
+  },
+  {
+    "Sr.": 184,
+    "constituency_no": "109",
+    "constituency_name": "Kishani",
+    "slug": "kishani",
+    "vidhayak": "Er. Brajesh Katheriya",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Mainpuri"
+  },
+  {
+    "Sr.": 185,
+    "constituency_no": "164",
+    "constituency_name": "Mohan",
+    "slug": "mohan",
+    "vidhayak": "Shri Brajesh Kumar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Unnao"
+  },
+  {
+    "Sr.": 186,
+    "constituency_no": "373",
+    "constituency_name": "Jakhanian",
+    "slug": "jakhanian",
+    "vidhayak": "Shri Bedi",
+    "party": "Suheldev Bharatiya Samaj Party",
+    "party_color": "#FFD700",
+    "district": "Ghazipur"
+  },
+  {
+    "Sr.": 187,
+    "constituency_no": "90",
+    "constituency_name": "Agra Rural",
+    "slug": "agra-rural",
+    "vidhayak": "Smt. Baby Rani Maurya",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Agra"
+  },
+  {
+    "Sr.": 188,
+    "constituency_no": "163",
+    "constituency_name": "Safipur",
+    "slug": "safipur",
+    "vidhayak": "Shri Bamba Lal",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Unnao"
+  },
+  {
+    "Sr.": 189,
+    "constituency_no": "231",
+    "constituency_name": "Charkhari",
+    "slug": "charkhari",
+    "vidhayak": "Shri Brijbhushan Rajput",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Mahoba"
+  },
+  {
+    "Sr.": 190,
+    "constituency_no": "175",
+    "constituency_name": "Lucknow Cantt.",
+    "slug": "lucknow-cantt.",
+    "vidhayak": "Shri Brajesh Pathak",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lucknow"
+  },
+  {
+    "Sr.": 191,
+    "constituency_no": "113",
+    "constituency_name": "Sahaswan",
+    "slug": "sahaswan",
+    "vidhayak": "Shri Brajesh Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Badaun"
+  },
+  {
+    "Sr.": 192,
+    "constituency_no": "5",
+    "constituency_name": "Deoband",
+    "slug": "deoband",
+    "vidhayak": "Shri Brijesh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Saharanpur"
+  },
+  {
+    "Sr.": 193,
+    "constituency_no": "36",
+    "constituency_name": "Bilaspur",
+    "slug": "bilaspur",
+    "vidhayak": "Shri Baldev Singh Aulakh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Rampur"
+  },
+  {
+    "Sr.": 194,
+    "constituency_no": "129",
+    "constituency_name": "Puranpur",
+    "slug": "puranpur",
+    "vidhayak": "Shri Baburam",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Pilibhit"
+  },
+  {
+    "Sr.": 195,
+    "constituency_no": "91",
+    "constituency_name": "Fatehpur Sikri",
+    "slug": "fatehpur-sikri",
+    "vidhayak": "Shri Babulal",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Agra"
+  },
+  {
+    "Sr.": 196,
+    "constituency_no": "297",
+    "constituency_name": "Katra Bazar",
+    "slug": "katra-bazar",
+    "vidhayak": "Shri Bawan Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gonda"
+  },
+  {
+    "Sr.": 197,
+    "constituency_no": "80",
+    "constituency_name": "Sikandra Rao",
+    "slug": "sikandra-rao",
+    "vidhayak": "Shri Birendra Singh Rana",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hathras"
+  },
+  {
+    "Sr.": 198,
+    "constituency_no": "92",
+    "constituency_name": "Kheragarh",
+    "slug": "kheragarh",
+    "vidhayak": "Shri Bhagwan Singh Kushwaha",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Agra"
+  },
+  {
+    "Sr.": 199,
+    "constituency_no": "401",
+    "constituency_name": "Robertsganj",
+    "slug": "robertsganj",
+    "vidhayak": "Shri Bhupesh Chaubey",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sonbhadra"
+  },
+  {
+    "Sr.": 200,
+    "constituency_no": "76",
+    "constituency_name": "Aligarh",
+    "slug": "aligarh",
+    "vidhayak": "Smt. Mukta Sanjeev Raja",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Aligarh"
+  },
+  {
+    "Sr.": 201,
+    "constituency_no": "98",
+    "constituency_name": "Shikohabad",
+    "slug": "shikohabad",
+    "vidhayak": "Dr. Mukesh Chandra Verma (Mallah)",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Firozabad"
+  },
+  {
+    "Sr.": 202,
+    "constituency_no": "2",
+    "constituency_name": "Nakur",
+    "slug": "nakur",
+    "vidhayak": "Shri Mukesh Choudhary",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Saharanpur"
+  },
+  {
+    "Sr.": 203,
+    "constituency_no": "83",
+    "constituency_name": "Goverdhan",
+    "slug": "goverdhan",
+    "vidhayak": "Shri Meghshyam",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Mathura"
+  },
+  {
+    "Sr.": 204,
+    "constituency_no": "140",
+    "constituency_name": "Sri Nagar",
+    "slug": "sri-nagar",
+    "vidhayak": "Smt. Manju Tyagi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lakhim Kheri"
+  },
+  {
+    "Sr.": 205,
+    "constituency_no": "15",
+    "constituency_name": "Khatauli",
+    "slug": "khatauli",
+    "vidhayak": "Shri Madan Bhaiya",
+    "party": "Rashtriya Lok Dal",
+    "party_color": "#00A65A",
+    "district": "Muzaffarnagar"
+  },
+  {
+    "Sr.": 206,
+    "constituency_no": "57",
+    "constituency_name": "Modi Nagar",
+    "slug": "modi-nagar",
+    "vidhayak": "Dr. Manju Shiwach",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Ghaziabad"
+  },
+  {
+    "Sr.": 207,
+    "constituency_no": "97",
+    "constituency_name": "Firozabad",
+    "slug": "firozabad",
+    "vidhayak": "Shri Manish Asija",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Firozabad"
+  },
+  {
+    "Sr.": 208,
+    "constituency_no": "330",
+    "constituency_name": "Padrauna",
+    "slug": "padrauna",
+    "vidhayak": "Shri Manish Kumar Urf Mantu",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kushinagar"
+  },
+  {
+    "Sr.": 209,
+    "constituency_no": "152",
+    "constituency_name": "Sidhauli",
+    "slug": "sidhauli",
+    "vidhayak": "Shri Manish Rawat",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sitapur"
+  },
+  {
+    "Sr.": 210,
+    "constituency_no": "229",
+    "constituency_name": "Rath",
+    "slug": "rath",
+    "vidhayak": "Smt. Manisha",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hamirpur"
+  },
+  {
+    "Sr.": 211,
+    "constituency_no": "228",
+    "constituency_name": "Hamirpur",
+    "slug": "hamirpur",
+    "vidhayak": "Dr. Manoj Kumar Prajapati",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hamirpur"
+  },
+  {
+    "Sr.": 212,
+    "constituency_no": "183",
+    "constituency_name": "Unchahar",
+    "slug": "unchahar",
+    "vidhayak": "Dr. Manoj Kumar Pandey",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Raebareli"
+  },
+  {
+    "Sr.": 213,
+    "constituency_no": "18",
+    "constituency_name": "Nagina",
+    "slug": "nagina",
+    "vidhayak": "Shri Manoj Kumar Paras",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Bijnor"
+  },
+  {
+    "Sr.": 214,
+    "constituency_no": "227",
+    "constituency_name": "Mehroni",
+    "slug": "mehroni",
+    "vidhayak": "Shri Manohar Lal",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lalitpur"
+  },
+  {
+    "Sr.": 215,
+    "constituency_no": "178",
+    "constituency_name": "Tiloi",
+    "slug": "tiloi",
+    "vidhayak": "Shri Mayankeshwar Sharan Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Amethi"
+  },
+  {
+    "Sr.": 216,
+    "constituency_no": "219",
+    "constituency_name": "Madhaugarh",
+    "slug": "madhaugarh",
+    "vidhayak": "Shri Mool Chandra Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Jalaun"
+  },
+  {
+    "Sr.": 217,
+    "constituency_no": "310",
+    "constituency_name": "Basti Sadar",
+    "slug": "basti-sadar",
+    "vidhayak": "Shri Mahendra Nath Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Basti"
+  },
+  {
+    "Sr.": 218,
+    "constituency_no": "321",
+    "constituency_name": "Pipraich",
+    "slug": "pipraich",
+    "vidhayak": "Shri Mahendra Pal Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gorakhpur"
+  },
+  {
+    "Sr.": 219,
+    "constituency_no": "42",
+    "constituency_name": "Hasanpur",
+    "slug": "hasanpur",
+    "vidhayak": "Shri Mahendra Singh Khadagvanshi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Amroha"
+  },
+  {
+    "Sr.": 220,
+    "constituency_no": "41",
+    "constituency_name": "Amroha",
+    "slug": "amroha",
+    "vidhayak": "Shri Mehboob Ali",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Amroha"
+  },
+  {
+    "Sr.": 221,
+    "constituency_no": "215",
+    "constituency_name": "Kidwai Nagar",
+    "slug": "kidwai-nagar",
+    "vidhayak": "Shri Mahesh Trivedi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kanpurnagar"
+  },
+  {
+    "Sr.": 222,
+    "constituency_no": "115",
+    "constituency_name": "Badaun",
+    "slug": "badaun",
+    "vidhayak": "Shri Mahesh Chandra Gupta",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Badaun"
+  },
+  {
+    "Sr.": 223,
+    "constituency_no": "186",
+    "constituency_name": "Amethi",
+    "slug": "amethi",
+    "vidhayak": "Smt. Maharaji Prajapati",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Amethi"
+  },
+  {
+    "Sr.": 224,
+    "constituency_no": "305",
+    "constituency_name": "Itwa",
+    "slug": "itwa",
+    "vidhayak": "Shri Mata Prasad Pandey",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Sidharthnagar"
+  },
+  {
+    "Sr.": 225,
+    "constituency_no": "154",
+    "constituency_name": "Sawaijpur",
+    "slug": "sawaijpur",
+    "vidhayak": "Shri Madhavendra Pratap Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hardoi"
+  },
+  {
+    "Sr.": 226,
+    "constituency_no": "284",
+    "constituency_name": "Matera",
+    "slug": "matera",
+    "vidhayak": "Smt. Mariya Ali",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Behraich"
+  },
+  {
+    "Sr.": 227,
+    "constituency_no": "16",
+    "constituency_name": "Meerapur",
+    "slug": "meerapur",
+    "vidhayak": "Smt. Mithlesh Pal",
+    "party": "Rashtriya Lok Dal",
+    "party_color": "#00A65A",
+    "district": "Muzaffarnagar"
+  },
+  {
+    "Sr.": 228,
+    "constituency_no": "70",
+    "constituency_name": "Khurja",
+    "slug": "khurja",
+    "vidhayak": "Smt. Minakshi Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bulandshahar"
+  },
+  {
+    "Sr.": 229,
+    "constituency_no": "334",
+    "constituency_name": "Hata",
+    "slug": "hata",
+    "vidhayak": "Shri Mohan Verma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kushinagar"
+  },
+  {
+    "Sr.": 230,
+    "constituency_no": "216",
+    "constituency_name": "Kanpur Cantt.",
+    "slug": "kanpur-cantt.",
+    "vidhayak": "Shri Mohammad Hasan Roomi",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Kanpurnagar"
+  },
+  {
+    "Sr.": 231,
+    "constituency_no": "209",
+    "constituency_name": "Bilhaur",
+    "slug": "bilhaur",
+    "vidhayak": "Shri Mohit Sonkar 'Rahul Bachha'",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kanpurnagar"
+  },
+  {
+    "Sr.": 232,
+    "constituency_no": "88",
+    "constituency_name": "Agra South",
+    "slug": "agra-south",
+    "vidhayak": "Shri Yogendra Upadhyaya",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Agra"
+  },
+  {
+    "Sr.": 233,
+    "constituency_no": "52",
+    "constituency_name": "Baghpat",
+    "slug": "baghpat",
+    "vidhayak": "Shri Yogesh Dhama",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bagpat"
+  },
+  {
+    "Sr.": 234,
+    "constituency_no": "142",
+    "constituency_name": "Lakhimpur",
+    "slug": "lakhimpur",
+    "vidhayak": "Shri Yogesh Verma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lakhim Kheri"
+  },
+  {
+    "Sr.": 235,
+    "constituency_no": "169",
+    "constituency_name": "Bakshi Kaa Talab",
+    "slug": "bakshi-kaa talab",
+    "vidhayak": "Shri Yogesh Shukla",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lucknow"
+  },
+  {
+    "Sr.": 236,
+    "constituency_no": "202",
+    "constituency_name": "Bidhuna",
+    "slug": "bidhuna",
+    "vidhayak": "Smt. Rekha Verma",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Auraya"
+  },
+  {
+    "Sr.": 237,
+    "constituency_no": "246",
+    "constituency_name": "Kunda",
+    "slug": "kunda",
+    "vidhayak": "Shri Raghuraj Pratap Singh",
+    "party": "Jansatta Dal Loktantrik",
+    "party_color": "#660066",
+    "district": "Pratapgarh"
+  },
+  {
+    "Sr.": 238,
+    "constituency_no": "155",
+    "constituency_name": "Shahabad",
+    "slug": "shahabad",
+    "vidhayak": "Smt. Rajni Tiwari",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hardoi"
+  },
+  {
+    "Sr.": 239,
+    "constituency_no": "396",
+    "constituency_name": "Mirzapur",
+    "slug": "mirzapur",
+    "vidhayak": "Shri Ratnakar Mishra",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Mirzapur"
+  },
+  {
+    "Sr.": 240,
+    "constituency_no": "48",
+    "constituency_name": "Meerut",
+    "slug": "meerut",
+    "vidhayak": "Shri Rafiq Ansari",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Meerut"
+  },
+  {
+    "Sr.": 241,
+    "constituency_no": "364",
+    "constituency_name": "Badlapur",
+    "slug": "badlapur",
+    "vidhayak": "Shri Ramesh Chandra Mishra",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Jaunpur"
+  },
+  {
+    "Sr.": 242,
+    "constituency_no": "380",
+    "constituency_name": "Mughalsarai",
+    "slug": "mughalsarai",
+    "vidhayak": "Shri Ramesh Jaiswal",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Chandauli"
+  },
+  {
+    "Sr.": 243,
+    "constituency_no": "365",
+    "constituency_name": "Shahganj",
+    "slug": "shahganj",
+    "vidhayak": "Shri Ramesh Singh",
+    "party": "Nirbal Indian Shoshit Hamara Aam Dal",
+    "party_color": "#AA0000",
+    "district": "Jaunpur"
+  },
+  {
+    "Sr.": 244,
+    "constituency_no": "399",
+    "constituency_name": "Marihan",
+    "slug": "marihan",
+    "vidhayak": "Shri Rama Shankar Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Mirzapur"
+  },
+  {
+    "Sr.": 245,
+    "constituency_no": "349",
+    "constituency_name": "Phoolpur Pawai",
+    "slug": "phoolpur-pawai",
+    "vidhayak": "Shri Ramakant Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Azamgarh"
+  },
+  {
+    "Sr.": 246,
+    "constituency_no": "300",
+    "constituency_name": "Mankapur",
+    "slug": "mankapur",
+    "vidhayak": "Shri Ramapati Shastri",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gonda"
+  },
+  {
+    "Sr.": 247,
+    "constituency_no": "74",
+    "constituency_name": "Chharra",
+    "slug": "chharra",
+    "vidhayak": "Shri Ravendra Pal Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Aligarh"
+  },
+  {
+    "Sr.": 248,
+    "constituency_no": "223",
+    "constituency_name": "Jhansi Nagar",
+    "slug": "jhansi-nagar",
+    "vidhayak": "Shri Ravi Sharma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Jhansi"
+  },
+  {
+    "Sr.": 249,
+    "constituency_no": "174",
+    "constituency_name": "Lucknow Central",
+    "slug": "lucknow central",
+    "vidhayak": "Shri Ravidas Mehrotra",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Lucknow"
+  },
+  {
+    "Sr.": 250,
+    "constituency_no": "388",
+    "constituency_name": "Varanasi North",
+    "slug": "varanasi-north",
+    "vidhayak": "Shri Ravindra Jaiswal",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Varanasi"
+  },
+  {
+    "Sr.": 251,
+    "constituency_no": "224",
+    "constituency_name": "Mauranipur",
+    "slug": "mauranipur",
+    "vidhayak": "Dr. Rashmi Arya",
+    "party": "Apna Dal (SoneLal)",
+    "party_color": "#FF6600",
+    "district": "Jhansi"
+  },
+  {
+    "Sr.": 252,
+    "constituency_no": "230",
+    "constituency_name": "Mahoba",
+    "slug": "mahoba",
+    "vidhayak": "Shri Rakesh Kumar Goswami",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Mahoba"
+  },
+  {
+    "Sr.": 253,
+    "constituency_no": "292",
+    "constituency_name": "Gainsari",
+    "slug": "gainsari",
+    "vidhayak": "Shri Rakesh Kumar Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Balrampur"
+  },
+  {
+    "Sr.": 254,
+    "constituency_no": "250",
+    "constituency_name": "Raniganj",
+    "slug": "raniganj",
+    "vidhayak": "Dr. Rakesh Kumar Verma Alias Dr. R. K. Verma",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Pratapgarh"
+  },
+  {
+    "Sr.": 255,
+    "constituency_no": "185",
+    "constituency_name": "Gauriganj",
+    "slug": "gauriganj",
+    "vidhayak": "Shri Rakesh Pratap Singh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Amethi"
+  },
+  {
+    "Sr.": 256,
+    "constituency_no": "280",
+    "constituency_name": "Jalalpur",
+    "slug": "jalalpur",
+    "vidhayak": "Shri Rakesh Pandey",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Ambedkarnagar"
+  },
+  {
+    "Sr.": 257,
+    "constituency_no": "146",
+    "constituency_name": "Sitapur",
+    "slug": "sitapur",
+    "vidhayak": "Shri Rakesh Rathour",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sitapur"
+  },
+  {
+    "Sr.": 258,
+    "constituency_no": "208",
+    "constituency_name": "Bhognipur",
+    "slug": "bhognipur",
+    "vidhayak": "Shri Rakesh Sachan",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kanpurdehat"
+  },
+  {
+    "Sr.": 259,
+    "constituency_no": "369",
+    "constituency_name": "Machhlishahr",
+    "slug": "machhlishahr",
+    "vidhayak": "Dr. Ragini",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Jaunpur"
+  },
+  {
+    "Sr.": 260,
+    "constituency_no": "201",
+    "constituency_name": "Bharthana",
+    "slug": "bharthana",
+    "vidhayak": "Shri Raghvendra Kumar Singh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Etawah"
+  },
+  {
+    "Sr.": 261,
+    "constituency_no": "123",
+    "constituency_name": "Bithari Chainpur",
+    "slug": "bithari chainpur",
+    "vidhayak": "Dr. Raghavendra Sharma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bareilly"
+  },
+  {
+    "Sr.": 262,
+    "constituency_no": "189",
+    "constituency_name": "Sadar",
+    "slug": "sadar",
+    "vidhayak": "Shri Raj Prasad Upadhyay",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sultanpur"
+  },
+  {
+    "Sr.": 263,
+    "constituency_no": "77",
+    "constituency_name": "Iglas",
+    "slug": "iglas",
+    "vidhayak": "Shri Rajkumar Sahyogi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Aligarh"
+  },
+  {
+    "Sr.": 264,
+    "constituency_no": "248",
+    "constituency_name": "Pratapgarh",
+    "slug": "pratapgarh",
+    "vidhayak": "Shri Rajendra Kumar Maurya",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Pratapgarh"
+  },
+  {
+    "Sr.": 265,
+    "constituency_no": "355",
+    "constituency_name": "Muhammadabad- Gohna (Sc)",
+    "slug": "muhammadabad- gohna-(sc)",
+    "vidhayak": "Shri Rajendra Kumar",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Mau"
+  },
+  {
+    "Sr.": 266,
+    "constituency_no": "309",
+    "constituency_name": "Rudhauli",
+    "slug": "rudhauli",
+    "vidhayak": "Shri Rajendra Prasad Chaudhary",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Basti"
+  },
+  {
+    "Sr.": 267,
+    "constituency_no": "238",
+    "constituency_name": "Jahanabad",
+    "slug": "jahanabad",
+    "vidhayak": "Shri Rajendra Singh Patel",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Fatehpur"
+  },
+  {
+    "Sr.": 268,
+    "constituency_no": "11",
+    "constituency_name": "Budhana",
+    "slug": "budhana",
+    "vidhayak": "Shri Rajpal Singh Baliyan",
+    "party": "Rashtriya Lok Dal",
+    "party_color": "#00A65A",
+    "district": "Muzaffarnagar"
+  },
+  {
+    "Sr.": 269,
+    "constituency_no": "38",
+    "constituency_name": "Milak",
+    "slug": "milak",
+    "vidhayak": "Smt. Rajbala Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Rampur"
+  },
+  {
+    "Sr.": 270,
+    "constituency_no": "265",
+    "constituency_name": "Koraon",
+    "slug": "koraon",
+    "vidhayak": "Shri Raj Mani",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Prayagraj (Allahabad)"
+  },
+  {
+    "Sr.": 271,
+    "constituency_no": "191",
+    "constituency_name": "Kadipur",
+    "slug": "kadipur",
+    "vidhayak": "Shri Rajesh Kumar Gautam",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sultanpur"
+  },
+  {
+    "Sr.": 272,
+    "constituency_no": "328",
+    "constituency_name": "Chillupar",
+    "slug": "chillupar",
+    "vidhayak": "Shri Rajesh Tripathi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gorakhpur"
+  },
+  {
+    "Sr.": 273,
+    "constituency_no": "82",
+    "constituency_name": "Mant",
+    "slug": "mant",
+    "vidhayak": "Shri Rajesh Pal Singh Urf Rajesh Chaudhary",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Mathura"
+  },
+  {
+    "Sr.": 274,
+    "constituency_no": "170",
+    "constituency_name": "Sarojini Nagar",
+    "slug": "sarojini-nagar",
+    "vidhayak": "Dr. Rajeshwar Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lucknow"
+  },
+  {
+    "Sr.": 275,
+    "constituency_no": "3",
+    "constituency_name": "Saharanpur Nagar",
+    "slug": "saharanpur-nagar",
+    "vidhayak": "Shri Rajeev Gumber",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Saharanpur"
+  },
+  {
+    "Sr.": 276,
+    "constituency_no": "39",
+    "constituency_name": "Dhanaura",
+    "slug": "dhanaura",
+    "vidhayak": "Shri Rajeev Tarara",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Amroha"
+  },
+  {
+    "Sr.": 277,
+    "constituency_no": "222",
+    "constituency_name": "Babina",
+    "slug": "babina",
+    "vidhayak": "Shri Rajeev Singh ''Parichha''",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Jhansi"
+  },
+  {
+    "Sr.": 278,
+    "constituency_no": "117",
+    "constituency_name": "Dataganj",
+    "slug": "dataganj",
+    "vidhayak": "Shri Rajeev Singh Urf Babbu Bhaiya",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Badaun"
+  },
+  {
+    "Sr.": 279,
+    "constituency_no": "94",
+    "constituency_name": "Bah",
+    "slug": "bah",
+    "vidhayak": "Smt. Rani Pakshalika Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Agra"
+  },
+  {
+    "Sr.": 280,
+    "constituency_no": "281",
+    "constituency_name": "Akbarpur",
+    "slug": "akbarpur",
+    "vidhayak": "Shri Ram Achal Rajbhar",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Ambedkarnagar"
+  },
+  {
+    "Sr.": 281,
+    "constituency_no": "24",
+    "constituency_name": "Noorpur",
+    "slug": "noorpur",
+    "vidhayak": "Shri Ram Avatar Singh Saini",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Bijnor"
+  },
+  {
+    "Sr.": 282,
+    "constituency_no": "283",
+    "constituency_name": "Nanpara",
+    "slug": "nanpara",
+    "vidhayak": "Shri Ram Niwas Verma",
+    "party": "Apna Dal (SoneLal)",
+    "party_color": "#FF6600",
+    "district": "Behraich"
+  },
+  {
+    "Sr.": 283,
+    "constituency_no": "290",
+    "constituency_name": "Shrawasti",
+    "slug": "shrawasti",
+    "vidhayak": "Shri Ram Feran Pandey",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Shravasti"
+  },
+  {
+    "Sr.": 284,
+    "constituency_no": "353",
+    "constituency_name": "Madhuban",
+    "slug": "madhuban",
+    "vidhayak": "Shri Ram Bilash Chauhan",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Mau"
+  },
+  {
+    "Sr.": 285,
+    "constituency_no": "278",
+    "constituency_name": "Tanda",
+    "slug": "tanda",
+    "vidhayak": "Shri Ram Murti Verma",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Ambedkarnagar"
+  },
+  {
+    "Sr.": 286,
+    "constituency_no": "249",
+    "constituency_name": "Patti",
+    "slug": "patti",
+    "vidhayak": "Shri Ram Singh Patel",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Pratapgarh"
+  },
+  {
+    "Sr.": 287,
+    "constituency_no": "232",
+    "constituency_name": "Tindwari",
+    "slug": "tindwari",
+    "vidhayak": "Shri Ramkesh Nishad",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Banda"
+  },
+  {
+    "Sr.": 288,
+    "constituency_no": "153",
+    "constituency_name": "Misrikh",
+    "slug": "misrikh",
+    "vidhayak": "Shri Ramkrishna Bhargava",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sitapur"
+  },
+  {
+    "Sr.": 289,
+    "constituency_no": "111",
+    "constituency_name": "Gunnaur",
+    "slug": "gunnaur",
+    "vidhayak": "Shri Ramkhiladi Singh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Sambhal"
+  },
+  {
+    "Sr.": 290,
+    "constituency_no": "271",
+    "constituency_name": "Rudauli",
+    "slug": "rudauli",
+    "vidhayak": "Shri Ram Chandra Yadav",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Ayodhya (Faizabad)"
+  },
+  {
+    "Sr.": 291,
+    "constituency_no": "108",
+    "constituency_name": "Bhongaon",
+    "slug": "bhongaon",
+    "vidhayak": "Shri Ram Naresh Agnihotri",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Mainpuri"
+  },
+  {
+    "Sr.": 292,
+    "constituency_no": "293",
+    "constituency_name": "Utraula",
+    "slug": "utraula",
+    "vidhayak": "Shri Rampratap Verma Urf Shashikant Verma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Balrampur"
+  },
+  {
+    "Sr.": 293,
+    "constituency_no": "160",
+    "constituency_name": "Balamau",
+    "slug": "balamau",
+    "vidhayak": "Shri Rampal Verma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hardoi"
+  },
+  {
+    "Sr.": 294,
+    "constituency_no": "226",
+    "constituency_name": "Lalitpur",
+    "slug": "lalitpur",
+    "vidhayak": "Shri Ramratan Kushwaha",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lalitpur"
+  },
+  {
+    "Sr.": 295,
+    "constituency_no": "29",
+    "constituency_name": "Kundarki",
+    "slug": "kundarki",
+    "vidhayak": "Shri Ramveer Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Moradabad"
+  },
+  {
+    "Sr.": 296,
+    "constituency_no": "179",
+    "constituency_name": "Harchandpur",
+    "slug": "harchandpur",
+    "vidhayak": "Shri Rahul Rajpoot Urf Rahul Lodhi",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Raebareli"
+  },
+  {
+    "Sr.": 297,
+    "constituency_no": "395",
+    "constituency_name": "Chhanbey",
+    "slug": "chhanbey",
+    "vidhayak": "Smt. Rinki Kol",
+    "party": "Apna Dal (SoneLal)",
+    "party_color": "#FF6600",
+    "district": "Mirzapur"
+  },
+  {
+    "Sr.": 298,
+    "constituency_no": "28",
+    "constituency_name": "Moradabad Nagar",
+    "slug": "moradabad nagar",
+    "vidhayak": "Shri Ritesh Kumar Gupta",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Moradabad"
+  },
+  {
+    "Sr.": 299,
+    "constituency_no": "81",
+    "constituency_name": "Chhata",
+    "slug": "chhata",
+    "vidhayak": "Shri Laxmi Narayan",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Mathura"
+  },
+  {
+    "Sr.": 300,
+    "constituency_no": "64",
+    "constituency_name": "Sikandrabad",
+    "slug": "sikandrabad",
+    "vidhayak": "Shri Lakshmi Raj Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bulandshahar"
+  },
+  {
+    "Sr.": 301,
+    "constituency_no": "367",
+    "constituency_name": "Malhani",
+    "slug": "malhani",
+    "vidhayak": "Shri Lucky Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Jaunpur"
+  },
+  {
+    "Sr.": 302,
+    "constituency_no": "144",
+    "constituency_name": "Mohammdi",
+    "slug": "mohammdi",
+    "vidhayak": "Shri Lokendra Pratap Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lakhim Kheri"
+  },
+  {
+    "Sr.": 303,
+    "constituency_no": "275",
+    "constituency_name": "Ayodhya",
+    "slug": "ayodhya",
+    "vidhayak": "Shri Ved Prakash Gupta",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Ayodhya (Faizabad)"
+  },
+  {
+    "Sr.": 304,
+    "constituency_no": "264",
+    "constituency_name": "Bara",
+    "slug": "bara",
+    "vidhayak": "Shri Vachaspati",
+    "party": "Apna Dal (SoneLal)",
+    "party_color": "#FF6600",
+    "district": "Prayagraj (Allahabad)"
+  },
+  {
+    "Sr.": 305,
+    "constituency_no": "241",
+    "constituency_name": "Ayah Shah",
+    "slug": "ayah-shah",
+    "vidhayak": "Shri Vikas Gupta",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Fatehpur"
+  },
+  {
+    "Sr.": 306,
+    "constituency_no": "257",
+    "constituency_name": "Pratappur",
+    "slug": "pratappur",
+    "vidhayak": "Smt. Vijama Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Prayagraj (Allahabad)"
+  },
+  {
+    "Sr.": 307,
+    "constituency_no": "403",
+    "constituency_name": "Duddhi",
+    "slug": "duddhi",
+    "vidhayak": "Shri Vijay Singh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Sonbhadra"
+  },
+  {
+    "Sr.": 308,
+    "constituency_no": "59",
+    "constituency_name": "Hapur",
+    "slug": "hapur",
+    "vidhayak": "Shri Vijaypal (Aadhti)",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hapur"
+  },
+  {
+    "Sr.": 309,
+    "constituency_no": "341",
+    "constituency_name": "Salempur",
+    "slug": "salempur",
+    "vidhayak": "Smt. Vijaylaxmi Gautam",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Deoria"
+  },
+  {
+    "Sr.": 310,
+    "constituency_no": "295",
+    "constituency_name": "Mehnaun",
+    "slug": "mehnaun",
+    "vidhayak": "Shri Vinay Kumar Dwivedi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gonda"
+  },
+  {
+    "Sr.": 311,
+    "constituency_no": "335",
+    "constituency_name": "Ramkola",
+    "slug": "ramkola",
+    "vidhayak": "Shri Vinay Prakash Gond",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kushinagar"
+  },
+  {
+    "Sr.": 312,
+    "constituency_no": "302",
+    "constituency_name": "Shohratgarh",
+    "slug": "shohratgarh",
+    "vidhayak": "Shri Vinay Verma",
+    "party": "Apna Dal (SoneLal)",
+    "party_color": "#FF6600",
+    "district": "Sidharthnagar"
+  },
+  {
+    "Sr.": 313,
+    "constituency_no": "220",
+    "constituency_name": "Kalpi",
+    "slug": "kalpi",
+    "vidhayak": "Shri Vinod Chaturvedi",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Jalaun"
+  },
+  {
+    "Sr.": 314,
+    "constituency_no": "141",
+    "constituency_name": "Dhaurahra",
+    "slug": "dhaurahra",
+    "vidhayak": "Shri Vinod Shankar Awasthi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lakhim Kheri"
+  },
+  {
+    "Sr.": 315,
+    "constituency_no": "245",
+    "constituency_name": "Babaganj",
+    "slug": "babaganj",
+    "vidhayak": "Shri Vinod Saroj",
+    "party": "Jansatta Dal Loktantrik",
+    "party_color": "#660066",
+    "district": "Pratapgarh"
+  },
+  {
+    "Sr.": 316,
+    "constituency_no": "188",
+    "constituency_name": "Sultanpur",
+    "slug": "sultanpur",
+    "vidhayak": "Shri Vinod Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sultanpur"
+  },
+  {
+    "Sr.": 317,
+    "constituency_no": "393",
+    "constituency_name": "Gyanpur",
+    "slug": "gyanpur",
+    "vidhayak": "Shri Vipul Dubey",
+    "party": "Nirbal Indian Shoshit Hamara Aam Dal",
+    "party_color": "#AA0000",
+    "district": "Bhadohi"
+  },
+  {
+    "Sr.": 318,
+    "constituency_no": "104",
+    "constituency_name": "Etah",
+    "slug": "etah",
+    "vidhayak": "Shri Vipin Kumar David",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Etah"
+  },
+  {
+    "Sr.": 319,
+    "constituency_no": "323",
+    "constituency_name": "Gorakhpur Rural",
+    "slug": "gorakhpur rural",
+    "vidhayak": "Shri Bipin Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gorakhpur"
+  },
+  {
+    "Sr.": 320,
+    "constituency_no": "327",
+    "constituency_name": "Bansgaon",
+    "slug": "bansgaon",
+    "vidhayak": "Dr. Vimlesh Paswan",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gorakhpur"
+  },
+  {
+    "Sr.": 321,
+    "constituency_no": "130",
+    "constituency_name": "Bisalpur",
+    "slug": "bisalpur",
+    "vidhayak": "Shri Vivek Kumar Verma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Pilibhit"
+  },
+  {
+    "Sr.": 322,
+    "constituency_no": "329",
+    "constituency_name": "Khadda",
+    "slug": "khadda",
+    "vidhayak": "Shri Viveka Nand Pandey",
+    "party": "Nirbal Indian Shoshit Hamara Aam Dal",
+    "party_color": "#AA0000",
+    "district": "Kushinagar"
+  },
+  {
+    "Sr.": 323,
+    "constituency_no": "233",
+    "constituency_name": "Baberu",
+    "slug": "baberu",
+    "vidhayak": "Shri Vishambhar Singh Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Banda"
+  },
+  {
+    "Sr.": 324,
+    "constituency_no": "131",
+    "constituency_name": "Katra",
+    "slug": "katra",
+    "vidhayak": "Dr. Veer Vikram Singh \"Prince\"",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Shahjahanpur"
+  },
+  {
+    "Sr.": 325,
+    "constituency_no": "376",
+    "constituency_name": "Jangipur",
+    "slug": "jangipur",
+    "vidhayak": "Dr. Virendra Kumar Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Ghazipur"
+  },
+  {
+    "Sr.": 326,
+    "constituency_no": "315",
+    "constituency_name": "Pharenda",
+    "slug": "pharenda",
+    "vidhayak": "Shri Virendra Chaudhary",
+    "party": "Indian National Congress",
+    "party_color": "#008000",
+    "district": "Maharajganj"
+  },
+  {
+    "Sr.": 327,
+    "constituency_no": "105",
+    "constituency_name": "Marhara",
+    "slug": "marhara",
+    "vidhayak": "Shri Virendra Singh Lodhi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Etah"
+  },
+  {
+    "Sr.": 328,
+    "constituency_no": "397",
+    "constituency_name": "Majhawan",
+    "slug": "majhawan",
+    "vidhayak": "Smt. Suchismita Maurya",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Mirzapur"
+  },
+  {
+    "Sr.": 329,
+    "constituency_no": "34",
+    "constituency_name": "Suar",
+    "slug": "suar",
+    "vidhayak": "Shri Shafiq Ahmed Ansari",
+    "party": "Apna Dal (SoneLal)",
+    "party_color": "#FF6600",
+    "district": "Rampur"
+  },
+  {
+    "Sr.": 330,
+    "constituency_no": "157",
+    "constituency_name": "Gopamau",
+    "slug": "gopamau",
+    "vidhayak": "Shri Shyam Prakash",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hardoi"
+  },
+  {
+    "Sr.": 331,
+    "constituency_no": "122",
+    "constituency_name": "Faridpur",
+    "slug": "faridpur",
+    "vidhayak": "Prof. Shyam Bihari Lal",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bareilly"
+  },
+  {
+    "Sr.": 332,
+    "constituency_no": "177",
+    "constituency_name": "Bachhrawan",
+    "slug": "bachhrawan",
+    "vidhayak": "Shri Shyam Sunder",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Raebareli"
+  },
+  {
+    "Sr.": 333,
+    "constituency_no": "303",
+    "constituency_name": "Kapilvastu",
+    "slug": "kapilvastu",
+    "vidhayak": "Shri Shyamdhani Rahi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sidharthnagar"
+  },
+  {
+    "Sr.": 334,
+    "constituency_no": "162",
+    "constituency_name": "Bangermau",
+    "slug": "bangermau",
+    "vidhayak": "Shri Shrikant Katiyar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Unnao"
+  },
+  {
+    "Sr.": 335,
+    "constituency_no": "84",
+    "constituency_name": "Mathura",
+    "slug": "mathura",
+    "vidhayak": "Shri Shrikant Sharma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Mathura"
+  },
+  {
+    "Sr.": 336,
+    "constituency_no": "325",
+    "constituency_name": "Khajani",
+    "slug": "khajani",
+    "vidhayak": "Shri Shriram Chauhan",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gorakhpur"
+  },
+  {
+    "Sr.": 337,
+    "constituency_no": "337",
+    "constituency_name": "Deoria",
+    "slug": "deoria",
+    "vidhayak": "Dr. Shalabh Mani Tripathi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Deoria"
+  },
+  {
+    "Sr.": 338,
+    "constituency_no": "145",
+    "constituency_name": "Maholi",
+    "slug": "maholi",
+    "vidhayak": "Shri Shashank Trivedi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sitapur"
+  },
+  {
+    "Sr.": 339,
+    "constituency_no": "138",
+    "constituency_name": "Nighasan",
+    "slug": "nighasan",
+    "vidhayak": "Shri Shashank Verma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lakhim Kheri"
+  },
+  {
+    "Sr.": 340,
+    "constituency_no": "120",
+    "constituency_name": "Bhojipura",
+    "slug": "bhojipura",
+    "vidhayak": "Shri Shazil Islam Ansari",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Bareilly"
+  },
+  {
+    "Sr.": 341,
+    "constituency_no": "46",
+    "constituency_name": "Kithore",
+    "slug": "kithore",
+    "vidhayak": "Shri Shahid Manzoor",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Meerut"
+  },
+  {
+    "Sr.": 342,
+    "constituency_no": "199",
+    "constituency_name": "Jaswantnagar",
+    "slug": "jaswantnagar",
+    "vidhayak": "Shri Shivpal Singh Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Etawah"
+  },
+  {
+    "Sr.": 343,
+    "constituency_no": "343",
+    "constituency_name": "Atrauliya",
+    "slug": "atrauliya",
+    "vidhayak": "Dr. Sangram Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Azamgarh"
+  },
+  {
+    "Sr.": 344,
+    "constituency_no": "360",
+    "constituency_name": "Phephana",
+    "slug": "phephana",
+    "vidhayak": "Shri Sangram Singh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Ballia"
+  },
+  {
+    "Sr.": 345,
+    "constituency_no": "22",
+    "constituency_name": "Bijnor",
+    "slug": "bijnor",
+    "vidhayak": "Smt. Suchi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bijnor"
+  },
+  {
+    "Sr.": 346,
+    "constituency_no": "96",
+    "constituency_name": "Jasrana",
+    "slug": "jasrana",
+    "vidhayak": "Er. Sachin Yadav Urf Jakhai",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Firozabad"
+  },
+  {
+    "Sr.": 347,
+    "constituency_no": "67",
+    "constituency_name": "Anupshahr",
+    "slug": "anupshahr",
+    "vidhayak": "Shri Sanjay Kumar Sharma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bulandshahar"
+  },
+  {
+    "Sr.": 348,
+    "constituency_no": "127",
+    "constituency_name": "Pilibhit",
+    "slug": "pilibhit",
+    "vidhayak": "Shri Sanjay Singh Gangwar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Pilibhit"
+  },
+  {
+    "Sr.": 349,
+    "constituency_no": "125",
+    "constituency_name": "Bareilly Cantt.",
+    "slug": "bareilly-cantt.",
+    "vidhayak": "Shri Sanjeev Agarwal",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bareilly"
+  },
+  {
+    "Sr.": 350,
+    "constituency_no": "402",
+    "constituency_name": "Obra",
+    "slug": "obra",
+    "vidhayak": "Shri Sanjeev Kumar Gond",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sonbhadra"
+  },
+  {
+    "Sr.": 351,
+    "constituency_no": "106",
+    "constituency_name": "Jalesar",
+    "slug": "jalesar",
+    "vidhayak": "Shri Sanjeev Kumar Diwakar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Etah"
+  },
+  {
+    "Sr.": 352,
+    "constituency_no": "56",
+    "constituency_name": "Ghaziabad",
+    "slug": "gaziabad",
+    "vidhayak": "Shri Sanjeev Sharma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Ghaziabad"
+  },
+  {
+    "Sr.": 353,
+    "constituency_no": "103",
+    "constituency_name": "Aliganj",
+    "slug": "aliganj",
+    "vidhayak": "Shri Satyapal Singh Rathore",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Etah"
+  },
+  {
+    "Sr.": 354,
+    "constituency_no": "270",
+    "constituency_name": "Dariyabad",
+    "slug": "dariyabad",
+    "vidhayak": "Shri Satish Chandra Sharma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Barabanki"
+  },
+  {
+    "Sr.": 355,
+    "constituency_no": "217",
+    "constituency_name": "Maharajpur",
+    "slug": "maharajpur",
+    "vidhayak": "Shri Satish Mahana",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kanpurnagar"
+  },
+  {
+    "Sr.": 356,
+    "constituency_no": "73",
+    "constituency_name": "Atrauli",
+    "slug": "atrauli",
+    "vidhayak": "Shri Sandeep Kumar Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Aligarh"
+  },
+  {
+    "Sr.": 357,
+    "constituency_no": "259",
+    "constituency_name": "Meja",
+    "slug": "meja",
+    "vidhayak": "Shri Sandeep Singh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Prayagraj (Allahabad)"
+  },
+  {
+    "Sr.": 358,
+    "constituency_no": "354",
+    "constituency_name": "Ghosi",
+    "slug": "ghosi",
+    "vidhayak": "Shri Sudhakar Singh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Mau"
+  },
+  {
+    "Sr.": 359,
+    "constituency_no": "55",
+    "constituency_name": "Sahibabad",
+    "slug": "sahibabad",
+    "vidhayak": "Shri Sunil Kumar Sharma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Ghaziabad"
+  },
+  {
+    "Sr.": 360,
+    "constituency_no": "194",
+    "constituency_name": "Farrukhabad",
+    "slug": "farrukhabad",
+    "vidhayak": "Major Sunil Dutt Dwivedi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Farrukhabad"
+  },
+  {
+    "Sr.": 361,
+    "constituency_no": "387",
+    "constituency_name": "Rohaniya",
+    "slug": "rohaniya",
+    "vidhayak": "Dr. Sunil Patel",
+    "party": "Apna Dal (SoneLal)",
+    "party_color": "#FF6600",
+    "district": "Varanasi"
+  },
+  {
+    "Sr.": 362,
+    "constituency_no": "340",
+    "constituency_name": "Bhatpar Rani",
+    "slug": "bhatpar-rani",
+    "vidhayak": "Shri Sabhakunwar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Deoria"
+  },
+  {
+    "Sr.": 363,
+    "constituency_no": "287",
+    "constituency_name": "Payagpur",
+    "slug": "payagpur",
+    "vidhayak": "Shri Subhash Tripathi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Behraich"
+  },
+  {
+    "Sr.": 364,
+    "constituency_no": "40",
+    "constituency_name": "Naugawan Sadat",
+    "slug": "naugawan-sadat",
+    "vidhayak": "Shri Samarpal Singh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Amroha"
+  },
+  {
+    "Sr.": 365,
+    "constituency_no": "306",
+    "constituency_name": "Doomariyaganj",
+    "slug": "doomariyaganj",
+    "vidhayak": "Smt. Saiyada Khatoon",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Sidharthnagar"
+  },
+  {
+    "Sr.": 366,
+    "constituency_no": "332",
+    "constituency_name": "Fazilnagar",
+    "slug": "fazilnagar",
+    "vidhayak": "Shri Surendra Kumar Kushwaha",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kushinagar"
+  },
+  {
+    "Sr.": 367,
+    "constituency_no": "339",
+    "constituency_name": "Rampur Karkhana",
+    "slug": "rampur karkhana",
+    "vidhayak": "Shri Surendra Chaurasiya",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Deoria"
+  },
+  {
+    "Sr.": 368,
+    "constituency_no": "71",
+    "constituency_name": "Khair",
+    "slug": "khair",
+    "vidhayak": "Shri Surender Diler",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Aligarh"
+  },
+  {
+    "Sr.": 369,
+    "constituency_no": "212",
+    "constituency_name": "Govindnagar",
+    "slug": "govindnagar",
+    "vidhayak": "Shri Surendra Maithani",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kanpurnagar"
+  },
+  {
+    "Sr.": 370,
+    "constituency_no": "192",
+    "constituency_name": "Kaimganj",
+    "slug": "kaimganj",
+    "vidhayak": "Dr. Surabhi",
+    "party": "Apna Dal (SoneLal)",
+    "party_color": "#FF6600",
+    "district": "Farrukhabad"
+  },
+  {
+    "Sr.": 371,
+    "constituency_no": "338",
+    "constituency_name": "Pathardeva",
+    "slug": "pathardeva",
+    "vidhayak": "Shri Surya Pratap Shahi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Deoria"
+  },
+  {
+    "Sr.": 372,
+    "constituency_no": "326",
+    "constituency_name": "Chauri-Chaura",
+    "slug": "chauri-chaura",
+    "vidhayak": "Er. Sarvan Kumar Nishad",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Gorakhpur"
+  },
+  {
+    "Sr.": 373,
+    "constituency_no": "99",
+    "constituency_name": "Sirsaganj",
+    "slug": "sirsaganj",
+    "vidhayak": "Shri Sarvesh Singh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Firozabad"
+  },
+  {
+    "Sr.": 374,
+    "constituency_no": "184",
+    "constituency_name": "Jagdishpur",
+    "slug": "jagdishpur",
+    "vidhayak": "Shri Suresh Kumar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Amethi"
+  },
+  {
+    "Sr.": 375,
+    "constituency_no": "135",
+    "constituency_name": "Shahjahanpur",
+    "slug": "shahjahanpur",
+    "vidhayak": "Shri Suresh Kumar Khanna",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Shahjahanpur"
+  },
+  {
+    "Sr.": 376,
+    "constituency_no": "147",
+    "constituency_name": "Hargaon",
+    "slug": "hargaon",
+    "vidhayak": "Shri Suresh Rahi",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sitapur"
+  },
+  {
+    "Sr.": 377,
+    "constituency_no": "285",
+    "constituency_name": "Mahasi",
+    "slug": "mahasi",
+    "vidhayak": "Shri Sureshwar Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Behraich"
+  },
+  {
+    "Sr.": 378,
+    "constituency_no": "200",
+    "constituency_name": "Etawah",
+    "slug": "etawah",
+    "vidhayak": "Smt. Sarita Bhadauriya",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Etawah"
+  },
+  {
+    "Sr.": 379,
+    "constituency_no": "218",
+    "constituency_name": "Ghatampur",
+    "slug": "ghatampur",
+    "vidhayak": "Smt. Saroj Kureel",
+    "party": "Apna Dal (SoneLal)",
+    "party_color": "#FF6600",
+    "district": "Kanpurnagar"
+  },
+  {
+    "Sr.": 380,
+    "constituency_no": "282",
+    "constituency_name": "Balha",
+    "slug": "balha",
+    "vidhayak": "Smt. Saroj Sonkar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Behraich"
+  },
+  {
+    "Sr.": 381,
+    "constituency_no": "133",
+    "constituency_name": "Tilhar",
+    "slug": "tilhar",
+    "vidhayak": "Smt. Salona Kushwaha",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Shahjahanpur"
+  },
+  {
+    "Sr.": 382,
+    "constituency_no": "23",
+    "constituency_name": "Chandpur",
+    "slug": "chandpur",
+    "vidhayak": "Shri Swami Omvesh",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Bijnor"
+  },
+  {
+    "Sr.": 383,
+    "constituency_no": "19",
+    "constituency_name": "Barhapur",
+    "slug": "barhapur",
+    "vidhayak": "Kunwar Sushant Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Bijnor"
+  },
+  {
+    "Sr.": 384,
+    "constituency_no": "193",
+    "constituency_name": "Amritpur",
+    "slug": "amritpur",
+    "vidhayak": "Shri Sushil Kumar Shakya",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Farrukhabad"
+  },
+  {
+    "Sr.": 385,
+    "constituency_no": "382",
+    "constituency_name": "Saiyadraja",
+    "slug": "saiyadraja",
+    "vidhayak": "Shri Shushil Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Chandauli"
+  },
+  {
+    "Sr.": 386,
+    "constituency_no": "378",
+    "constituency_name": "Mohammadabad",
+    "slug": "mohammadabad",
+    "vidhayak": "Shri Suhaib Alias Mannu Ansari",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Ghazipur"
+  },
+  {
+    "Sr.": 387,
+    "constituency_no": "266",
+    "constituency_name": "Kursi",
+    "slug": "kursi",
+    "vidhayak": "Shri Sakendra Pratap Verma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Barabanki"
+  },
+  {
+    "Sr.": 388,
+    "constituency_no": "261",
+    "constituency_name": "Prayagraj (Allahabad) West",
+    "slug": "prayagraj (allahabad)-west",
+    "vidhayak": "Shri Sidharth Nath Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Prayagraj (Allahabad)"
+  },
+  {
+    "Sr.": 389,
+    "constituency_no": "190",
+    "constituency_name": "Lambhua",
+    "slug": "lambhua",
+    "vidhayak": "Shri Sitaram Verma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Sultanpur"
+  },
+  {
+    "Sr.": 390,
+    "constituency_no": "49",
+    "constituency_name": "Meerut South",
+    "slug": "meerut-south",
+    "vidhayak": "Dr. Somendra Singh Tomar",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Meerut"
+  },
+  {
+    "Sr.": 391,
+    "constituency_no": "390",
+    "constituency_name": "Varanasi Cantt.",
+    "slug": "varanasi-cantt.",
+    "vidhayak": "Shri Saurabh Srivastava",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Varanasi"
+  },
+  {
+    "Sr.": 392,
+    "constituency_no": "143",
+    "constituency_name": "Kasta",
+    "slug": "kasta",
+    "vidhayak": "Shri Saurabh Singh Sonu",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lakhim Kheri"
+  },
+  {
+    "Sr.": 393,
+    "constituency_no": "345",
+    "constituency_name": "Sagri",
+    "slug": "sagri",
+    "vidhayak": "Dr. Hriday Narayan Singh Patel",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Azamgarh"
+  },
+  {
+    "Sr.": 394,
+    "constituency_no": "60",
+    "constituency_name": "Garhmukteshwar",
+    "slug": "garhmukteshwar",
+    "vidhayak": "Shri Harendra Singh",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Hapur"
+  },
+  {
+    "Sr.": 395,
+    "constituency_no": "137",
+    "constituency_name": "Palia",
+    "slug": "palia",
+    "vidhayak": "Shri Harvinder Kumar Sahni Alias Romi Sahni",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Lakhim Kheri"
+  },
+  {
+    "Sr.": 396,
+    "constituency_no": "262",
+    "constituency_name": "Prayagraj (Allahabad) North",
+    "slug": "prayagraj (allahabad)-north",
+    "vidhayak": "Shri Harshvardhan Bajpai",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Prayagraj (Allahabad)"
+  },
+  {
+    "Sr.": 397,
+    "constituency_no": "132",
+    "constituency_name": "Jalalabad",
+    "slug": "jalalabad",
+    "vidhayak": "Shri Hari Prakash Verma",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Shahjahanpur"
+  },
+  {
+    "Sr.": 398,
+    "constituency_no": "101",
+    "constituency_name": "Amanpur",
+    "slug": "amanpur",
+    "vidhayak": "Shri Hariom",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Kasganj"
+  },
+  {
+    "Sr.": 399,
+    "constituency_no": "114",
+    "constituency_name": "Bilsi",
+    "slug": "bilsi",
+    "vidhayak": "Shri Harish Chandra",
+    "party": "Bharatiya Janata Party",
+    "party_color": "#FF9933",
+    "district": "Badaun"
+  },
+  {
+    "Sr.": 400,
+    "constituency_no": "357",
+    "constituency_name": "Belthara Road",
+    "slug": "belthara-road",
+    "vidhayak": "Shri Hansu Ram",
+    "party": "Suheldev Bharatiya Samaj Party",
+    "party_color": "#FFD700",
+    "district": "Ballia"
+  },
+  {
+    "Sr.": 401,
+    "constituency_no": "258",
+    "constituency_name": "Handia",
+    "slug": "handia",
+    "vidhayak": "Shri Hakim Lal Bind",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Prayagraj (Allahabad)"
+  },
+  {
+    "Sr.": 402,
+    "constituency_no": "116",
+    "constituency_name": "Shekhupur",
+    "slug": "shekhupur",
+    "vidhayak": "Shri Himanshu Yadav",
+    "party": "Samajwadi Party",
+    "party_color": "#FF0000",
+    "district": "Badaun"
+  }
+]

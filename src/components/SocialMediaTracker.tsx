@@ -3,6 +3,25 @@ import { MessageCircle, Heart, Share2, TrendingUp, TrendingDown, Hash, Users, Ba
 import SocialMediaPost from './SocialMediaPost';
 import { apiService, TwitterTweet, TrendingHashtag, SentimentAnalysis } from '../services/apiService';
 
+ const getAuthorImage = (author: string) => {
+    const safeAuthor = author.toLowerCase();
+    if (safeAuthor.includes("yogi")) {
+      return "https://i.pinimg.com/736x/dd/7e/7f/dd7e7f211cb2f8bdc0a0cbaf662aa4ad.jpg";
+    } else if (safeAuthor.includes("akhilesh")) {
+      return "https://media.publicvibe.com/community/topic/20240928/640933287_69761_050501801_168x300.jpg";
+    } else if (safeAuthor.includes("brajesh")) {
+      return "https://pbs.twimg.com/profile_images/1833859315788066816/fWpEomdT_400x400.jpg";
+    } else if (safeAuthor.includes("maurya")) {
+      return "https://etimg.etb2bimg.com/photo/98679958.cms"
+    } else if (safeAuthor.includes("chandra")) {
+      return "https://pbs.twimg.com/profile_images/1686588577264922624/4zBmxxTV_400x400.jpg";
+    } else if (safeAuthor.includes("kashikirai")) {
+      return "https://pbs.twimg.com/profile_images/1871895065892675584/RvnF-B61_400x400.jpg"
+    }
+
+    return "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg";
+  };
+
 const SocialMediaTracker: React.FC = () => {
   const [selectedPlatform, setSelectedPlatform] = useState('all');
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -272,7 +291,7 @@ const SocialMediaTracker: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm border border-gray-200">
         <div className="p-6">
           {/* Platform Tabs */}
-          <div className="mb-6">
+          {/* <div className="mb-6">
             <h3 className="text-lg font-semibold text-gray-800 mb-4">Filter by Platform</h3>
             <div className="flex flex-wrap gap-2">
               {platformTabs.map((tab) => (
@@ -297,7 +316,7 @@ const SocialMediaTracker: React.FC = () => {
                 </button>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Category Tabs */}
           <div>
@@ -353,7 +372,7 @@ const SocialMediaTracker: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="p-4 space-y-4 max-h-[800px] overflow-y-auto">
+            <div className="p-4 space-y-4  overflow-y-auto">
               {filteredData.length > 0 ? (
                 filteredData.map((post) => (
                   <SocialMediaPost
@@ -366,6 +385,7 @@ const SocialMediaTracker: React.FC = () => {
                     platform={post.platform}
                     tags={post.tags}
                     url={post.url}
+                    post={post}
                   />
                 ))
               ) : (
@@ -489,11 +509,11 @@ const SocialMediaTracker: React.FC = () => {
               {[
                 { name: 'Yogi Adityanath', handle: '@myogiadityanath', followers: '2.5M', engagement: '95.2%' },
                 { name: 'Akhilesh Yadav', handle: '@yadavakhilesh', followers: '1.8M', engagement: '78.5%' },
-                { name: 'Priyanka Gandhi', handle: '@priyankagandhi', followers: '3.2M', engagement: '67.3%' },
+                { name: 'Chandra Shekhar', handle: '@BhimArmyChief', followers: '3.2M', engagement: '67.3%' },
               ].map((influencer, index) => (
                 <div key={index} className="flex items-center space-x-3 p-3 hover:bg-gray-50 rounded-lg transition-colors">
                   <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white font-bold">
-                    {influencer.name.charAt(0)}
+                    <img src={getAuthorImage(influencer.name)} alt={influencer.name} className="w-10 h-10 rounded-full object-cover" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-medium text-gray-800">{influencer.name}</h4>

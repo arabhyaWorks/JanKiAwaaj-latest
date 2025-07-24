@@ -1,5 +1,11 @@
-import React from 'react';
-import { Heart, Share2, MessageCircle, Repeat2, MoreHorizontal } from 'lucide-react';
+import React from "react";
+import {
+  Heart,
+  Share2,
+  MessageCircle,
+  Repeat2,
+  MoreHorizontal,
+} from "lucide-react";
 
 interface SocialMediaPostProps {
   url?: string;
@@ -10,34 +16,91 @@ interface SocialMediaPostProps {
   date?: string;
   platform?: string;
   tags?: string[];
+  post?: any;
 }
 
 const SocialMediaPost: React.FC<SocialMediaPostProps> = ({
-  author = 'Unknown',
-  content = '',
+  author = "Unknown",
+  content = "",
   likes = 0,
-  url = '',
+  url = "",
   shares = 0,
-  date = '',
-  platform = 'unknown',
+  date = "",
+  platform = "unknown",
   tags = [],
+  post = {},
 }) => {
   const formatNumber = (num: number) => {
     return num >= 1000 ? `${(num / 1000).toFixed(1)}k` : num.toString();
   };
 
+  const formatDate = (dateString: string) => {
+    if (!dateString) return "";
+
+    try {
+      const date = new Date(dateString);
+      const now = new Date();
+      const diffInSeconds = Math.floor((now.getTime() - date.getTime()) / 1000);
+
+      // If less than 1 minute ago
+      if (diffInSeconds < 60) {
+        return `${diffInSeconds}s`;
+      }
+
+      // If less than 1 hour ago
+      if (diffInSeconds < 3600) {
+        const minutes = Math.floor(diffInSeconds / 60);
+        return `${minutes}m`;
+      }
+
+      // If less than 24 hours ago
+      if (diffInSeconds < 86400) {
+        const hours = Math.floor(diffInSeconds / 3600);
+        return `${hours}h`;
+      }
+
+      // If less than 7 days ago
+      if (diffInSeconds < 604800) {
+        const days = Math.floor(diffInSeconds / 86400);
+        return `${days}d`;
+      }
+
+      // Otherwise show the formatted date
+      return date.toLocaleDateString("en-US", {
+        month: "short",
+        day: "numeric",
+        year: date.getFullYear() !== now.getFullYear() ? "numeric" : undefined,
+      });
+    } catch (error) {
+      return dateString; // Fallback to original string if parsing fails
+    }
+  };
+
   const getAuthorImage = (author: string) => {
     const safeAuthor = author.toLowerCase();
-    if (safeAuthor.includes('yogi')) {
-      return 'https://i.pinimg.com/736x/dd/7e/7f/dd7e7f211cb2f8bdc0a0cbaf662aa4ad.jpg';
-    } else if (safeAuthor.includes('akhilesh')) {
-      return 'https://media.publicvibe.com/community/topic/20240928/640933287_69761_050501801_168x300.jpg';
+    if (safeAuthor.includes("yogi")) {
+      return "https://i.pinimg.com/736x/dd/7e/7f/dd7e7f211cb2f8bdc0a0cbaf662aa4ad.jpg";
+    } else if (safeAuthor.includes("akhilesh")) {
+      return "https://media.publicvibe.com/community/topic/20240928/640933287_69761_050501801_168x300.jpg";
+    } else if (safeAuthor.includes("brajesh")) {
+      return "https://pbs.twimg.com/profile_images/1833859315788066816/fWpEomdT_400x400.jpg";
+    } else if (safeAuthor.includes("maurya")) {
+      return "https://etimg.etb2bimg.com/photo/98679958.cms"
+    } else if (safeAuthor.includes("BhimArmyChief")) {
+      return "https://pbs.twimg.com/profile_images/1686588577264922624/4zBmxxTV_400x400.jpg";
+    } else if (safeAuthor.includes("kashikirai")) {
+      return "https://pbs.twimg.com/profile_images/1871895065892675584/RvnF-B61_400x400.jpg"
     }
-    return 'https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg';
+
+    return "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg";
   };
 
   const getVerifiedBadge = () => (
-    <svg className="w-5 h-5 text-blue-500 ml-1" fill="currentColor" viewBox="0 0 20 20">
+    <svg
+      className="w-5 h-5 text-blue-500 ml-1"
+      fill="currentColor"
+      viewBox="0 0 20 20"
+    >
       <path
         fillRule="evenodd"
         d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
@@ -56,23 +119,31 @@ const SocialMediaPost: React.FC<SocialMediaPostProps> = ({
       <div className="p-2">
         <div className="flex space-x-3">
           <img
-            src={getAuthorImage(author)}
+            // src={getAuthorImage(author)}
+            src={post.authorImage}
             alt={author}
             className="w-8 h-8 rounded-full object-cover"
           />
           <div className="flex-1 min-w-0">
             <div className="flex items-center space-x-1">
-              <h3 className="text-sm font-bold text-gray-900 hover:underline">{author}</h3>
+              <h3 className="text-sm font-bold text-gray-900 hover:underline">
+                {author}
+              </h3>
               {getVerifiedBadge()}
               <span className="text-gray-500">·</span>
-              <span className="text-gray-500 text-xs">{date}</span>
+              <span className="text-gray-500 text-xs" title={date}>
+                {formatDate(date)}
+              </span>
             </div>
 
             <p className="text-sm text-gray-900 mt-1">{content}</p>
 
             <div className="flex flex-wrap gap-1 mt-2">
               {tags.map((tag, index) => (
-                <span key={index} className="text-blue-500 hover:underline text-xs">
+                <span
+                  key={index}
+                  className="text-blue-500 hover:underline text-xs"
+                >
                   #{tag}
                 </span>
               ))}

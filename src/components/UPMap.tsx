@@ -1,9 +1,10 @@
 import React from 'react';
 import { MapPin, Users, TrendingUp, BarChart3 } from 'lucide-react';
+import Map from './Map';
 
 const UPMap: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
+    <div className=" bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-8">
@@ -21,7 +22,7 @@ const UPMap: React.FC = () => {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm font-medium text-gray-600">Total Constituencies</p>
-                <p className="text-3xl font-bold text-blue-600">80</p>
+                <p className="text-3xl font-bold text-blue-600">403</p>
               </div>
               <MapPin className="h-12 w-12 text-blue-500" />
             </div>
@@ -59,7 +60,13 @@ const UPMap: React.FC = () => {
         </div>
 
         {/* Map Container */}
-        <div className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden">
+
+
+        <div className='bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden '>
+
+        <Map/>
+        </div>
+        {/* <div className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden">
           <div className="p-6 border-b border-gray-200">
             <h2 className="text-2xl font-bold text-gray-900 mb-2">
               Vidhan Sabha Constituencies Map
@@ -84,10 +91,10 @@ const UPMap: React.FC = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Quick Actions */}
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-100 hover:shadow-xl transition-shadow cursor-pointer">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">
               Constituency Analysis
@@ -114,7 +121,7 @@ const UPMap: React.FC = () => {
               Access latest polling data and public opinion surveys
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
