@@ -13,6 +13,7 @@ import LeaderProfiles from "./components/LeaderProfiles";
 import SchemePerformance from "./components/SchemePerformance";
 import Layout from "./components/Layout";
 import ConstituencyDetails from "./components/ConstituencyDetails";
+import BroadcastControlCenter from "./components/Iccs";
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
           <Route path="schemes" element={<SchemePerformance />} />
           <Route path="/:slug" element={<ConstituencyDetails />} />
         </Route>
+                  <Route path="iccs" element={<BroadcastControlCenter />} />
+
       </Routes>
     </Router>
   );
