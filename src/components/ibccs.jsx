@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 const BroadcastControlCenter = () => {
   const [channels, setChannels] = useState([
+    // National News Channels
     {
       id: "aaj-tak-404p",
       name: "Aaj Tak",
@@ -12,6 +13,7 @@ const BroadcastControlCenter = () => {
       viewers: "2.4M",
       uptime: "24/7",
       category: "National",
+      type: "hls", // hls or embed
     },
     {
       id: "aaj-tak-hd",
@@ -23,18 +25,9 @@ const BroadcastControlCenter = () => {
       viewers: "1.8M",
       uptime: "24/7",
       category: "National",
+      type: "hls", // hls or embed
     },
-    {
-      id: "abp-news",
-      name: "ABP News",
-      quality: "720p",
-      url: "https://abplivetv.akamaized.net/hls/live/2043010/hindi/master.m3u8",
-      status: "loading",
-      isLive: false,
-      viewers: "1.5M",
-      uptime: "24/7",
-      category: "National",
-    },
+
     {
       id: "abp-ganga",
       name: "ABP Ganga",
@@ -45,6 +38,7 @@ const BroadcastControlCenter = () => {
       viewers: "892K",
       uptime: "24/7",
       category: "UP Regional",
+      type: "hls", // hls or embed
     },
     {
       id: "dd-news",
@@ -56,6 +50,7 @@ const BroadcastControlCenter = () => {
       viewers: "1.2M",
       uptime: "24/7",
       category: "National",
+      type: "hls", // hls or embed
     },
     {
       id: "et-now-swadesh",
@@ -67,6 +62,7 @@ const BroadcastControlCenter = () => {
       viewers: "456K",
       uptime: "24/7",
       category: "National",
+      type: "hls", // hls or embed
     },
     {
       id: "india-today",
@@ -78,29 +74,9 @@ const BroadcastControlCenter = () => {
       viewers: "1.6M",
       uptime: "16/7",
       category: "National",
+      type: "hls", // hls or embed
     },
-    {
-      id: "india-news",
-      name: "India News",
-      quality: "576p",
-      url: "https://livetv.newsx.com/itv/itvnetwork5/playlist.m3u8",
-      status: "loading",
-      isLive: false,
-      viewers: "987K",
-      uptime: "24/7",
-      category: "National",
-    },
-    {
-      id: "india-news-up",
-      name: "India News UP",
-      quality: "576p",
-      url: "https://livetv.newsx.com/itv/itvnetwork3/playlist.m3u8",
-      status: "loading",
-      isLive: false,
-      viewers: "445K",
-      uptime: "24/7",
-      category: "UP Regional",
-    },
+
     {
       id: "lok-sabha-tv",
       name: "Lok Sabha TV",
@@ -111,6 +87,7 @@ const BroadcastControlCenter = () => {
       viewers: "678K",
       uptime: "24/7",
       category: "National",
+      type: "hls", // hls or embed
     },
     {
       id: "ndtv-24x7",
@@ -122,6 +99,7 @@ const BroadcastControlCenter = () => {
       viewers: "1.1M",
       uptime: "24/7",
       category: "National",
+      type: "hls", // hls or embed
     },
     {
       id: "ndtv-india",
@@ -133,6 +111,7 @@ const BroadcastControlCenter = () => {
       viewers: "934K",
       uptime: "24/7",
       category: "National",
+      type: "hls", // hls or embed
     },
     {
       id: "news24",
@@ -144,6 +123,7 @@ const BroadcastControlCenter = () => {
       viewers: "756K",
       uptime: "24/7",
       category: "National",
+      type: "hls", // hls or embed
     },
     {
       id: "republic-bharat",
@@ -155,18 +135,9 @@ const BroadcastControlCenter = () => {
       viewers: "2.1M",
       uptime: "24/7",
       category: "National",
+      type: "hls", // hls or embed
     },
-    {
-      id: "times-now",
-      name: "Times Now",
-      quality: "480p",
-      url: "https://timesnow-lh.akamaihd.net/i/TNHD_1@129288/master.m3u8",
-      status: "loading",
-      isLive: false,
-      viewers: "1.3M",
-      uptime: "24/7",
-      category: "National",
-    },
+
     {
       id: "tv9-bharatvarsh",
       name: "TV9 Bharatvarsh",
@@ -177,6 +148,7 @@ const BroadcastControlCenter = () => {
       viewers: "834K",
       uptime: "24/7",
       category: "National",
+      type: "hls", // hls or embed
     },
     {
       id: "wion",
@@ -188,40 +160,9 @@ const BroadcastControlCenter = () => {
       viewers: "567K",
       uptime: "24/7",
       category: "National",
+      type: "hls", // hls or embed
     },
-    {
-      id: "zee-news",
-      name: "Zee News",
-      quality: "480p",
-      url: "https://d233nwklwv8p4.cloudfront.net/out/v1/860cb318d23a4c64b58c9d625281170c/index_3.m3u8",
-      status: "loading",
-      isLive: false,
-      viewers: "1.4M",
-      uptime: "24/7",
-      category: "National",
-    },
-    {
-      id: "zee-hindustan",
-      name: "Zee Hindustan",
-      quality: "720p",
-      url: "https://d336l5u76wvq7j.cloudfront.net/out/v1/5990b42d2b7b40bc8e581e90afe6ef94/index_4.m3u8",
-      status: "loading",
-      isLive: false,
-      viewers: "678K",
-      uptime: "24/7",
-      category: "National",
-    },
-    {
-      id: "zee-up-uttarakhand",
-      name: "Zee UP Uttarakhand",
-      quality: "720p",
-      url: "https://livetv-channels.b-cdn.net/8076/playlist.m3u8",
-      status: "loading",
-      isLive: false,
-      viewers: "445K",
-      uptime: "24/7",
-      category: "UP Regional",
-    },
+
     {
       id: "dd-uttar-pradesh",
       name: "DD Uttar Pradesh",
@@ -232,11 +173,84 @@ const BroadcastControlCenter = () => {
       viewers: "312K",
       uptime: "24/7",
       category: "UP Regional",
+      type: "hls", // hls or embed
+    },
+    {
+      id: "india-tv-embed",
+      name: "India TV",
+      quality: "HD",
+      url: "https://www.yupptv.com/yupptvnew/channels/indiatv/live/embed",
+      type: "embed",
+      status: "loading",
+      isLive: false,
+      viewers: "1.9M",
+      uptime: "24/7",
+      category: "National",
+    },
+    {
+      id: "abp-news-embed",
+      name: "ABP News",
+      quality: "HD",
+      url: "https://www.yupptv.com/yupptvnew/channels/abp-news/live/embed",
+      type: "embed",
+      status: "loading",
+      isLive: false,
+      viewers: "1.5M",
+      uptime: "24/7",
+      category: "National",
+    },
+    {
+      id: "zee-news-embed",
+      name: "Zee News",
+      quality: "HD",
+      url: "https://www.yupptv.com/yupptvnew/channels/zee-news/live/embed",
+      type: "embed",
+      status: "loading",
+      isLive: false,
+      viewers: "1.4M",
+      uptime: "24/7",
+      category: "National",
+    },
+    {
+      id: "first-india-news",
+      name: "First India News",
+      quality: "1080p",
+      url: "https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8",
+      type: "hls",
+      status: "loading",
+      isLive: false,
+      viewers: "2.1M",
+      uptime: "24/7",
+      category: "National",
+    },
+    {
+      id: "ndtv-247",
+      name: "NDTV 24/7",
+      quality: "1080p",
+      url: "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
+      type: "hls",
+      status: "loading",
+      isLive: false,
+      viewers: "2.1M",
+      uptime: "24/7",
+      category: "National",
+    },
+    {
+      id: "news-24",
+      name: "News 24",
+      quality: "1080p",
+      url: "https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8",
+      type: "hls",
+      status: "loading",
+      isLive: false,
+      viewers: "2.1M",
+      uptime: "24/7",
+      category: "National",
     },
   ]);
 
   const [selectedChannel, setSelectedChannel] = useState(null);
-  const [viewMode, setViewMode] = useState("grid"); // 'grid' or 'focused'
+  const [viewMode, setViewMode] = useState("grid");
   const [systemStatus, setSystemStatus] = useState("optimal");
   const hlsInstances = useRef({});
 
@@ -313,7 +327,7 @@ const BroadcastControlCenter = () => {
     );
   };
 
-  const initializeChannel = async (channel) => {
+  const initializeHLSChannel = async (channel) => {
     const videoElement = document.getElementById(`video-${channel.id}`);
     if (!videoElement) return;
 
@@ -362,6 +376,22 @@ const BroadcastControlCenter = () => {
     }
   };
 
+  const initializeEmbedChannel = (channel) => {
+    // For embed channels, we assume they're working if the iframe loads
+    // You could add more sophisticated checking here
+    setTimeout(() => {
+      updateChannelStatus(channel.id, "success", true);
+    }, 2000);
+  };
+
+  const initializeChannel = (channel) => {
+    if (channel.type === "hls") {
+      initializeHLSChannel(channel);
+    } else if (channel.type === "embed") {
+      initializeEmbedChannel(channel);
+    }
+  };
+
   useEffect(() => {
     channels.forEach((channel) => {
       setTimeout(() => initializeChannel(channel), Math.random() * 2000);
@@ -406,6 +436,35 @@ const BroadcastControlCenter = () => {
     }
   };
 
+  const renderChannelPlayer = (channel, isGridView = true) => {
+    const containerClass = isGridView
+      ? "w-full h-32 sm:h-40 md:h-48"
+      : "w-full h-96";
+
+    if (channel.type === "embed") {
+      return (
+        <iframe
+          src={channel.url}
+          className={`${containerClass} object-cover bg-black border-0`}
+          allow="encrypted-media; autoplay; fullscreen"
+          title={`${channel.name} Live Stream`}
+          sandbox="allow-scripts allow-same-origin allow-presentation"
+        />
+      );
+    } else {
+      return (
+        <video
+          id={`video-${channel.id}`}
+          className={`${containerClass} object-cover bg-black`}
+          muted={isGridView}
+          autoPlay
+          playsInline
+          controls={!isGridView}
+        />
+      );
+    }
+  };
+
   const TrendingUp = () => (
     <svg
       className="w-4 h-4"
@@ -439,10 +498,10 @@ const BroadcastControlCenter = () => {
   );
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen bg-gray-900 text-white pb-20">
       {/* Header */}
       <div className="bg-gradient-to-br from-gray-800 to-gray-700 p-6 rounded-xl shadow-lg border border-gray-600 m-6">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-3">
               <div className="p-3 bg-orange-900/30 rounded-lg border border-orange-600/20">
@@ -455,7 +514,7 @@ const BroadcastControlCenter = () => {
                 </svg>
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-white">
+                <h1 className="text-xl lg:text-2xl font-bold text-white">
                   Integrated Broadcast Command & Control Centre
                 </h1>
                 <p className="text-sm text-gray-300 mt-1">
@@ -536,7 +595,7 @@ const BroadcastControlCenter = () => {
       <div className="mx-6">
         {viewMode === "grid" ? (
           <div className="bg-gradient-to-br from-gray-800 to-gray-700 p-6 rounded-xl shadow-lg border border-gray-600">
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6 gap-4">
               <div>
                 <h3 className="text-xl font-bold text-white">
                   Live Channel Monitoring
@@ -565,20 +624,14 @@ const BroadcastControlCenter = () => {
               {channels.map((channel) => (
                 <div
                   key={channel.id}
-                  className="bg-gray-800 rounded-xl shadow-lg border border-gray-600 overflow-hidden hover:shadow-xl transition-all duration-200 cursor-pointer hover:scale-[1.02] hover:border-orange-500/50 "
+                  className="bg-gray-800 rounded-xl shadow-lg border border-gray-600 overflow-hidden hover:shadow-xl transition-all duration-200 cursor-pointer hover:scale-[1.02] hover:border-orange-500/50 group"
                   onClick={() => {
                     setSelectedChannel(channel);
                     setViewMode("focused");
                   }}
                 >
                   <div className="relative">
-                    <video
-                      id={`video-${channel.id}`}
-                      className="w-full  h-full object-cover bg-black"
-                      muted
-                      autoPlay
-                      playsInline
-                    />
+                    {renderChannelPlayer(channel, true)}
 
                     {/* Status indicator */}
                     <div
@@ -587,9 +640,14 @@ const BroadcastControlCenter = () => {
                       )} shadow-lg`}
                     ></div>
 
+                    {/* Stream type indicator */}
+                    <div className="absolute top-2 left-2 bg-black/70 text-white px-2 py-0.5 rounded text-xs font-medium uppercase">
+                      {channel.type}
+                    </div>
+
                     {/* Live indicator */}
                     {channel.isLive && (
-                      <div className="absolute top-2 left-2 bg-red-600 text-white px-2 py-0.5 rounded text-xs font-bold flex items-center gap-1">
+                      <div className="absolute top-8 left-2 bg-red-600 text-white px-2 py-0.5 rounded text-xs font-bold flex items-center gap-1">
                         <div className="w-1.5 h-1.5 bg-white rounded-full animate-pulse"></div>
                         LIVE
                       </div>
@@ -601,14 +659,12 @@ const BroadcastControlCenter = () => {
                     </div>
 
                     {/* Channel info overlay */}
-                    <div className="absolute bottom-0 left-0 right-0 bg-black/40 backdrop-blur-sm px-3 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="absolute bottom-0 left-0 right-0 bg-black/40 backdrop-blur-sm px-3 py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <h3 className="font-semibold text-sm text-white truncate mb-1">
                         {channel.name}
                       </h3>
-
-                      <span>{channel.viewers} viewers</span>
-
-                      {/* <div className="flex row items-center justify-right text-xs text-gray-300">
+                      <div className="flex items-center justify-between text-xs text-gray-300">
+                        <span>{channel.viewers} viewers</span>
                         <span
                           className={`px-2 py-0.5 rounded-full font-medium ${
                             channel.status === "success"
@@ -620,7 +676,7 @@ const BroadcastControlCenter = () => {
                         >
                           {getStatusText(channel.status)}
                         </span>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -635,13 +691,14 @@ const BroadcastControlCenter = () => {
               {selectedChannel && (
                 <div className="bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl shadow-lg border border-gray-600 overflow-hidden">
                   <div className="p-4 border-b border-gray-600">
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                       <div>
                         <h2 className="text-xl font-bold text-white">
                           {selectedChannel.name}
                         </h2>
                         <p className="text-sm text-gray-300">
-                          Live broadcast monitoring
+                          Live broadcast monitoring •{" "}
+                          {selectedChannel.type.toUpperCase()} Stream
                         </p>
                       </div>
                       <div className="flex items-center space-x-3">
@@ -666,19 +723,18 @@ const BroadcastControlCenter = () => {
                     </div>
                   </div>
 
-                  <div className="relative">
-                    <video
-                      id={`focused-video-${selectedChannel.id}`}
-                      className="w-full h-96 object-cover bg-black"
-                      controls
-                      autoPlay
-                      playsInline
-                      src={selectedChannel.url}
-                    />
+                  <div className="relative bg-black">
+                    {renderChannelPlayer(selectedChannel, false)}
                   </div>
 
                   <div className="p-4 bg-gray-800">
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                      <div className="text-center p-3 bg-gray-700 rounded-lg border border-gray-600">
+                        <p className="text-xs text-gray-400">Type</p>
+                        <p className="text-lg font-bold text-white uppercase">
+                          {selectedChannel.type}
+                        </p>
+                      </div>
                       <div className="text-center p-3 bg-gray-700 rounded-lg border border-gray-600">
                         <p className="text-xs text-gray-400">Quality</p>
                         <p className="text-lg font-bold text-white">
@@ -689,12 +745,6 @@ const BroadcastControlCenter = () => {
                         <p className="text-xs text-gray-400">Viewers</p>
                         <p className="text-lg font-bold text-white">
                           {selectedChannel.viewers}
-                        </p>
-                      </div>
-                      <div className="text-center p-3 bg-gray-700 rounded-lg border border-gray-600">
-                        <p className="text-xs text-gray-400">Uptime</p>
-                        <p className="text-lg font-bold text-white">
-                          {selectedChannel.uptime}
                         </p>
                       </div>
                       <div className="text-center p-3 bg-gray-700 rounded-lg border border-gray-600">
@@ -716,7 +766,7 @@ const BroadcastControlCenter = () => {
               <h3 className="text-lg font-semibold text-white mb-4">
                 All Channels
               </h3>
-              <div className="space-y-2">
+              <div className="space-y-2 max-h-96 overflow-y-auto">
                 {channels.map((channel) => (
                   <div
                     key={channel.id}
@@ -733,6 +783,10 @@ const BroadcastControlCenter = () => {
                           {channel.name}
                         </h4>
                         <div className="flex items-center space-x-2 mt-1">
+                          <span className="text-xs text-gray-400 uppercase">
+                            {channel.type}
+                          </span>
+                          <span className="text-xs text-gray-500">•</span>
                           <span className="text-xs text-gray-400">
                             {channel.quality}
                           </span>
@@ -763,7 +817,7 @@ const BroadcastControlCenter = () => {
 
       {/* Footer Status Bar */}
       <div className="fixed bottom-0 left-0 right-0 bg-gray-800 border-t border-gray-600 px-6 py-3 shadow-lg">
-        <div className="flex items-center justify-between text-sm">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between text-sm gap-2">
           <div className="flex items-center gap-4">
             <span className="text-gray-300">
               System Status:{" "}

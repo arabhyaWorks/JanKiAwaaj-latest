@@ -14,6 +14,7 @@ import SchemePerformance from "./components/SchemePerformance";
 import Layout from "./components/Layout";
 import ConstituencyDetails from "./components/ConstituencyDetails";
 import BroadcastControlCenter from "./components/Iccs";
+import IBCSS from "./components/ibccs";
 
 function App() {
   return (
@@ -33,8 +34,8 @@ function App() {
           <Route path="schemes" element={<SchemePerformance />} />
           <Route path="/:slug" element={<ConstituencyDetails />} />
         </Route>
-                  <Route path="iccs" element={<BroadcastControlCenter />} />
-
+        <Route path="iccs" element={<BroadcastControlCenter />} />
+        <Route path="ibccs" element={<IBCSS />} />
       </Routes>
     </Router>
   );
